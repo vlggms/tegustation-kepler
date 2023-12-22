@@ -3,7 +3,6 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-resentment.svg)](#) [![forthebadge](https://forthebadge.com/images/badges/contains-tasty-spaghetti-code.svg)](#) [![forinfinityandbyond](https://user-images.githubusercontent.com/5211576/29499758-4efff304-85e6-11e7-8267-62919c3688a9.gif)](https://www.reddit.com/r/SS13/comments/5oplxp/what_is_the_main_problem_with_byond_as_an_engine/dclbu1a)
 
-[![Build Status](https://github.com/vlggms/tegustation-kepler/workflows/CI%20Suite/badge.svg)](https://github.com/vlggms/tegustation-kepler/actions?query=workflow%3A%22CI+Suite%22)
 [![Percentage of issues still open](https://isitmaintained.com/badge/open/vlggms/tegustation-kepler.svg)](https://isitmaintained.com/project/vlggms/tegustation-kepler "Percentage of issues still open")
 [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/vlggms/tegustation-kepler.svg)](https://isitmaintained.com/project/vlggms/tegustation-kepler "Average time to resolve an issue")
 
