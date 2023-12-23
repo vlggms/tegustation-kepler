@@ -14,7 +14,7 @@
 	allowed_jobs = list(
 		// Command,
 		/datum/job/governor,
-		// Military
+		// Military,
 		/datum/job/ranger,
 		// Misc,
 		/datum/job/assistant,
