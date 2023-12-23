@@ -178,6 +178,7 @@ GLOBAL_LIST_INIT(jukebox_tracks, list(
 	/decl/audio/track/rimward_cruise,
 	/decl/audio/track/singularity_calm,
 	/decl/audio/track/space_oddity,
+	/decl/audio/track/space1,
 	/decl/audio/track/thunderdome,
 	/decl/audio/track/torn,
 	/decl/audio/track/treacherous_voyage,

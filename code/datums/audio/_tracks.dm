@@ -265,3 +265,10 @@
 	author = "Yubatake"
 	license = /decl/license/cc_by_3_0
 	url = "https://opengameart.org/content/m31"
+
+/decl/audio/track/space1
+	source = 'sound/music/Space1.ogg'
+	title = "Outer Space"
+	author = "Alexandr Zhelanov"
+	license = /decl/license/cc_by_4_0
+	url = "https://opengameart.org/content/space-1"

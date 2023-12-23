@@ -17,7 +17,7 @@
 		above.update_mimic()
 
 //Creates a new turf
-/turf/proc/ChangeTurf(var/turf/N, var/tell_universe = TRUE, var/force_lighting_update = FALSE, var/keep_air = FALSE)
+/turf/proc/ChangeTurf(turf/N, tell_universe = TRUE, force_lighting_update = FALSE, keep_air = FALSE)
 	if (!N)
 		return
 

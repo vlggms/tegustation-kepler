@@ -126,9 +126,9 @@
 			plant.pixel_x = 0
 			plant.pixel_y = 0
 
-/turf/simulated/wall/ChangeTurf(var/newtype)
+/turf/simulated/wall/ChangeTurf(turf/N, tell_universe = TRUE, force_lighting_update = FALSE, keep_air = FALSE)
 	clear_plants()
-	. = ..(newtype)
+	. = ..()
 	var/turf/new_turf = .
 	for (var/turf/simulated/wall/W in RANGE_TURFS(new_turf, 1))
 		if (W == src)
