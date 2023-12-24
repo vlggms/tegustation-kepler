@@ -6,7 +6,16 @@
 	desc = "Kepler 22b Colony"
 	region = ACCESS_REGION_GENERAL
 
+// Engineering
+
+/var/const/access_engineering = "ACCESS_ENGINEERING"
+/datum/access/access_engineering
+	id = access_engineering
+	desc = "Engineering"
+	region = ACCESS_REGION_ENGINEERING
+
 // Militia
+
 /var/const/access_militia = "ACCESS_MILITIA"
 /datum/access/access_militia
 	id = access_militia

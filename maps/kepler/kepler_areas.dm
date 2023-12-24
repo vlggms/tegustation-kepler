@@ -49,6 +49,12 @@
 	name = "\improper Cryogenic Storage"
 	icon_state = "Sleep"
 
+// Engineering
+/area/kepler_underground_colony/engineering
+	name = "\improper Engineering"
+	icon_state = "engine"
+	req_access = list(access_engineering)
+
 // Militia
 /area/kepler_underground_colony/militia
 	icon_state = "security"
