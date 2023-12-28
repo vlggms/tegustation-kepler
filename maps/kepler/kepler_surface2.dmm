@@ -104,6 +104,15 @@
 	},
 /turf/simulated/open,
 /area/kepler_underground_colony/main_corridor)
+"t" = (
+/obj/machinery/light/medbay{
+	dir = 1
+	},
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/kepler_underground_colony/main_corridor)
 "v" = (
 /obj/structure/catwalk,
 /turf/simulated/open,
@@ -200,6 +209,18 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/kepler_underground_colony/main_corridor)
+"P" = (
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/kepler_underground_colony/main_corridor)
+"R" = (
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/kepler_underground_colony/main_corridor)
 "U" = (
 /turf/simulated/wall/concrete,
 /area/kepler_underground_colony/main_corridor)
@@ -213,6 +234,10 @@
 /obj/structure/catwalk,
 /obj/structure/railing/mapped,
 /turf/simulated/open,
+/area/kepler_underground_colony/main_corridor)
+"Y" = (
+/obj/structure/railing/mapped,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/kepler_underground_colony/main_corridor)
 
 (1,1,1) = {"
@@ -22468,8 +22493,8 @@ a
 a
 M
 A
-A
-A
+P
+P
 A
 A
 A
@@ -22669,7 +22694,7 @@ a
 a
 a
 M
-A
+Y
 z
 z
 A
@@ -22872,8 +22897,8 @@ a
 a
 M
 U
-h
-A
+t
+R
 A
 N
 U

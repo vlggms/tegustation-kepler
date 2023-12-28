@@ -8,6 +8,10 @@
 		/area/shuttle/specops/centcom,
 	)
 
+// Shuttles
+/area/shuttle/emergency_kepler
+	name = "Emergency Shuttle"
+
 // Surface
 /area/kepler_surface
 	name = "\improper Kepler 22b Surface"

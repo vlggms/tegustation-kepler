@@ -2,6 +2,7 @@
 
 	//#include "kepler_announcements.dm"
 	#include "kepler_areas.dm"
+	#include "kepler_evacuation.dm"
 	//#include "kepler_events.dm"
 	#include "kepler_lobby.dm"
 	//#include "kepler_machinery.dm"
@@ -11,7 +12,7 @@
 	#include "kepler_ranks.dm"
 	//#include "kepler_security_state.dm"
 	#include "kepler_setup.dm"
-	//#include "kepler_shuttles.dm"
+	#include "kepler_shuttles.dm"
 	//#include "kepler_unit_testing.dm"
 
 	#include "items/cards_ids.dm"

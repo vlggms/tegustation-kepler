@@ -3,6 +3,12 @@
 /obj/machinery/door/airlock/glass/civilian,
 /turf/simulated/floor/tiled,
 /area/kepler_underground_colony/main_corridor)
+"ak" = (
+/obj/machinery/door/blast/regular/open{
+	id_tag = "kepler_secpost1_hall_south"
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/checkpoint_a)
 "am" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -21,6 +27,12 @@
 /obj/machinery/light/medbay,
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/main_corridor)
+"bi" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/kepler_underground_colony/militia/checkpoint_b)
 "bn" = (
 /obj/effect/landmark/disaster_infestation_random,
 /turf/simulated/floor/tiled/techmaint,
@@ -76,6 +88,21 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/kepler_underground_colony/main_corridor)
+"ep" = (
+/obj/machinery/light/small/medbay{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/main_corridor)
+"eq" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/blast/regular/open{
+	id_tag = "kepler_secpost1_hall_north"
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/kepler_underground_colony/militia/checkpoint_a)
 "es" = (
 /obj/machinery/sleeper{
 	dir = 4
@@ -100,6 +127,15 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/kepler_underground_colony/engineering)
+"fc" = (
+/turf/simulated/wall/r_titanium,
+/area/kepler_underground_colony/militia/checkpoint_b)
+"fd" = (
+/obj/machinery/door/blast/regular/open{
+	id_tag = "kepler_secpost1_hall_south"
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/kepler_underground_colony/militia/checkpoint_a)
 "ff" = (
 /obj/machinery/power/apc/high{
 	dir = 8;
@@ -110,6 +146,15 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/main_corridor)
+"fl" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/blast/regular/open{
+	id_tag = "kepler_secpost1_hall_south"
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/kepler_underground_colony/militia/checkpoint_a)
 "fI" = (
 /obj/structure/table/steel,
 /obj/item/grenade/light,
@@ -209,6 +254,16 @@
 /obj/machinery/smartfridge/foods,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/main_corridor)
+"jh" = (
+/obj/effect/landmark/disaster_infestation_random,
+/turf/simulated/floor/tiled/techfloor,
+/area/kepler_underground_colony/militia/checkpoint_a)
+"js" = (
+/obj/machinery/door/blast/regular/open{
+	id_tag = "kepler_secpost1_hall_north"
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/checkpoint_a)
 "jC" = (
 /obj/machinery/vending/engineering,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -373,6 +428,12 @@
 "qm" = (
 /turf/simulated/wall/r_titanium,
 /area/kepler_underground_colony/militia/hallway)
+"qr" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/kepler_underground_colony/militia/checkpoint_a)
 "qA" = (
 /turf/simulated/mineral/random,
 /area/kepler_undeground)
@@ -444,12 +505,34 @@
 "rO" = (
 /turf/simulated/wall/r_titanium,
 /area/kepler_underground_colony/military/ranger/armory)
+"rS" = (
+/obj/machinery/door/blast/regular/open{
+	id_tag = "kepler_secpost1_hall_north"
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/kepler_underground_colony/militia/checkpoint_a)
 "sh" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/kepler_underground_colony/engineering)
+"sy" = (
+/obj/machinery/door/blast/regular/open{
+	id_tag = "kepler_secpost2_hall_east"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/kepler_underground_colony/militia/checkpoint_b)
+"sL" = (
+/obj/machinery/door/airlock/glass/civilian,
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/kepler_underground_colony/main_corridor)
 "sQ" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -479,6 +562,13 @@
 /obj/structure/kitchenspike,
 /turf/simulated/floor/tiled/freezer,
 /area/kepler_underground_colony/main_corridor)
+"tQ" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/obj/machinery/computer/modular/preset/cardslot/command,
+/turf/simulated/floor/tiled/techfloor,
+/area/kepler_underground_colony/militia/meeting_room)
 "tU" = (
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/hallway)
@@ -489,6 +579,16 @@
 /obj/structure/closet/secure_closet/kepler/militia,
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/hallway)
+"ul" = (
+/turf/simulated/floor/tiled/techfloor,
+/area/kepler_underground_colony/militia/checkpoint_b)
+"uT" = (
+/obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/blast/shutters/open{
+	id_tag = "kepler_secpost2_windows"
+	},
+/turf/simulated/floor/plating,
+/area/kepler_underground_colony/militia/checkpoint_b)
 "vm" = (
 /obj/structure/table/standard,
 /turf/simulated/floor/tiled/white/monotile,
@@ -570,6 +670,9 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/kepler_underground_colony/engineering)
+"wT" = (
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/checkpoint_b)
 "xe" = (
 /turf/simulated/floor/tiled,
 /area/kepler_underground_colony/main_corridor)
@@ -645,6 +748,22 @@
 /obj/structure/closet/firecloset,
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/main_corridor)
+"Bg" = (
+/obj/structure/table/steel,
+/obj/machinery/button/blast_door{
+	id_tag = "kepler_secpost1_hall_north";
+	name = "North Blastdoors";
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/machinery/button/blast_door{
+	id_tag = "kepler_secpost1_hall_south";
+	name = "South Blastdoors";
+	pixel_x = 4;
+	pixel_y = -4
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/checkpoint_a)
 "Bh" = (
 /obj/machinery/door/airlock/glass/security,
 /obj/structure/cable/yellow{
@@ -675,6 +794,22 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/crew_quarters/cryo)
+"Cf" = (
+/obj/structure/table/steel,
+/obj/machinery/button/blast_door{
+	id_tag = "kepler_secpost2_hall_east";
+	name = "East Blastdoors";
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/machinery/button/blast_door{
+	id_tag = "kepler_secpost2_hall_west";
+	name = "West Blastdoors";
+	pixel_x = 4;
+	pixel_y = -4
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/checkpoint_b)
 "Cl" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -720,6 +855,17 @@
 /obj/effect/landmark/disaster_infestation_random,
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/military/ranger/armory)
+"Eq" = (
+/obj/structure/table/steel,
+/obj/machinery/power/apc/high{
+	dir = 1;
+	pixel_y = 24
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/checkpoint_b)
 "EN" = (
 /obj/structure/bed/chair/padded{
 	dir = 1
@@ -760,6 +906,16 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/meeting_room)
+"Gh" = (
+/obj/structure/table/steel,
+/obj/machinery/button/blast_door{
+	id_tag = "kepler_secpost1_windows";
+	name = "Window Shutters";
+	pixel_x = 8;
+	pixel_y = 24
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/checkpoint_a)
 "Gi" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -845,6 +1001,12 @@
 "HA" = (
 /turf/simulated/floor/tiled/techfloor,
 /area/kepler_underground_colony/militia/hallway)
+"HJ" = (
+/obj/machinery/door/blast/regular/open{
+	id_tag = "kepler_secpost2_hall_west"
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/kepler_underground_colony/militia/checkpoint_b)
 "HS" = (
 /turf/simulated/wall/r_titanium,
 /area/kepler_underground_colony/engineering)
@@ -857,9 +1019,27 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/kepler_underground_colony/militia/hallway)
+"HY" = (
+/obj/machinery/button/blast_door{
+	id_tag = "kepler_secpost2_windows";
+	name = "Window Shutters";
+	pixel_x = 24;
+	pixel_y = -8
+	},
+/obj/machinery/computer/modular/preset/security{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/checkpoint_b)
 "HZ" = (
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/checkpoint_a)
+"Ik" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/checkpoint_b)
 "Ir" = (
 /turf/simulated/floor/tiled/techfloor,
 /area/kepler_underground_colony/militia/meeting_room)
@@ -903,6 +1083,10 @@
 /obj/machinery/chemical_dispenser/full,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/medical)
+"Kd" = (
+/obj/structure/table/steel,
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/checkpoint_b)
 "Kq" = (
 /obj/machinery/door/airlock/security,
 /turf/simulated/floor/tiled/techmaint,
@@ -1100,7 +1284,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/kepler_underground_colony/militia/meeting_room)
 "Qo" = (
-/obj/effect/landmark/disaster_infestation_random,
+/obj/machinery/computer/modular/preset/security,
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/checkpoint_a)
 "QC" = (
@@ -1110,6 +1294,15 @@
 "QR" = (
 /turf/simulated/wall/r_titanium,
 /area/kepler_underground_colony/crew_quarters/cryo)
+"Rr" = (
+/obj/machinery/light/medbay{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/checkpoint_b)
 "RB" = (
 /turf/unsimulated/mineral,
 /area/kepler_undeground)
@@ -1239,6 +1432,12 @@
 /obj/structure/cable/yellow,
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/military/ranger/armory)
+"Vv" = (
+/obj/machinery/door/blast/regular/open{
+	id_tag = "kepler_secpost2_hall_west"
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/checkpoint_b)
 "VJ" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/northleft,
@@ -1254,6 +1453,13 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/main_corridor)
+"VX" = (
+/obj/structure/table/steel,
+/obj/machinery/light/medbay{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/checkpoint_b)
 "VY" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -1278,6 +1484,9 @@
 /area/kepler_underground_colony/main_corridor)
 "Xg" = (
 /obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/blast/shutters/open{
+	id_tag = "kepler_secpost1_windows"
+	},
 /turf/simulated/floor/plating,
 /area/kepler_underground_colony/militia/checkpoint_a)
 "XV" = (
@@ -1311,12 +1520,25 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/main_corridor)
+"Yj" = (
+/obj/machinery/door/airlock/security,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/checkpoint_b)
 "Yp" = (
 /obj/machinery/light/medbay{
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
 /area/kepler_underground_colony/main_corridor)
+"YC" = (
+/obj/machinery/door/blast/regular/open{
+	id_tag = "kepler_secpost2_hall_east"
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/checkpoint_b)
 "YP" = (
 /obj/machinery/door/airlock/glass/medical,
 /obj/structure/cable/yellow{
@@ -15524,15 +15746,15 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-CN
-xX
-KH
-xX
+fc
+fc
+fc
+fc
+fc
+fc
+Vv
+HJ
+Vv
 CN
 pY
 pY
@@ -15726,14 +15948,14 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-CN
-xX
-KH
+fc
+Eq
+Rr
+Ik
+Ik
+Yj
+yG
+dP
 xX
 CN
 pY
@@ -15928,14 +16150,14 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-CN
+fc
+Kd
+ul
+ul
+wT
+uT
 xX
-KH
+Yh
 xX
 CN
 pY
@@ -16130,15 +16352,15 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-CN
+fc
+Kd
+ul
+ul
+wT
+uT
 xX
-KH
-xX
+Yh
+bd
 CN
 pY
 rE
@@ -16332,14 +16554,14 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-CN
+fc
+Kd
+ul
+bi
+wT
+uT
 xX
-KH
+Yh
 xX
 CN
 pY
@@ -16534,14 +16756,14 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-CN
-Mj
-KH
+fc
+Kd
+VX
+HY
+Cf
+fc
+xX
+Yh
 xX
 CN
 pY
@@ -16736,21 +16958,21 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-CN
-xX
-KH
-xX
+fc
+fc
+fc
+fc
+fc
+fc
+YC
+sy
+YC
 CN
 pY
 hP
 Ql
 te
-te
+tQ
 Ql
 mx
 FY
@@ -16945,7 +17167,7 @@ qA
 qA
 CN
 xX
-KH
+Yh
 xX
 CN
 pY
@@ -17147,7 +17369,7 @@ HS
 HS
 CN
 xX
-KH
+Yh
 xX
 CN
 pY
@@ -17349,7 +17571,7 @@ Cw
 HS
 CN
 xX
-KH
+Yh
 xX
 CN
 pY
@@ -17551,7 +17773,7 @@ wp
 HS
 CN
 xX
-KH
+Yh
 xX
 CN
 pY
@@ -17753,7 +17975,7 @@ wp
 HS
 CN
 Mj
-KH
+Yh
 xX
 CN
 pY
@@ -17955,7 +18177,7 @@ wp
 HS
 CN
 xX
-KH
+Yh
 xX
 CN
 pY
@@ -18157,7 +18379,7 @@ wp
 HS
 CN
 bn
-KH
+Yh
 xX
 CN
 kJ
@@ -18359,12 +18581,12 @@ wp
 HS
 CN
 xX
-KH
+Yh
 xX
 CN
 kJ
-Uu
-iB
+Gh
+jh
 fQ
 JH
 JH
@@ -18561,12 +18783,12 @@ wp
 HS
 CN
 xX
-KH
+Yh
 xX
 CN
 kJ
 Qo
-iB
+qr
 iB
 iB
 iB
@@ -18763,12 +18985,12 @@ wp
 HS
 CN
 xX
-KH
+Yh
 xX
 CN
 kJ
 Uu
-Uu
+Bg
 HZ
 HZ
 HZ
@@ -18965,7 +19187,7 @@ HS
 HS
 CN
 Al
-yF
+sL
 Al
 CN
 kJ
@@ -19167,18 +19389,18 @@ xX
 xX
 xX
 xX
-KH
-xX
-xX
-xX
-xX
-kt
-xX
+Yh
 xX
 xX
 xX
 kt
+js
 xX
+xX
+xX
+xX
+ak
+kt
 rK
 bn
 GZ
@@ -19369,17 +19591,17 @@ KH
 KH
 KH
 KH
+Yh
 KH
 KH
 KH
 KH
+rS
 KH
 KH
 KH
 KH
-KH
-KH
-KH
+fd
 KH
 Yh
 xX
@@ -19571,17 +19793,17 @@ PX
 PX
 PX
 PX
+lz
 PX
 PX
 PX
 PX
+eq
 PX
 PX
 PX
 PX
-PX
-PX
-PX
+fl
 PX
 vY
 yG
@@ -19778,12 +20000,12 @@ KH
 KH
 KH
 KH
+rS
 KH
 KH
 KH
 KH
-KH
-KH
+fd
 KH
 Yh
 xX
@@ -19979,14 +20201,14 @@ WK
 xX
 xX
 xX
-xX
 WK
+js
 xX
 xX
+ep
 xX
-xX
+ak
 WK
-xX
 Yh
 xX
 GZ

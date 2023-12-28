@@ -34,7 +34,7 @@
 	shuttle_docked_message = "Attention! Emergency Evacuation shuttle has docked with the station. Departure in %ETD%."
 	shuttle_leaving_dock = "Attention! Emergency Evacuation shuttle has exited the surface and will arrive at the destination in %ETA%."
 
-	evac_controller_type = /datum/evacuation_controller/starship
+	evac_controller_type = /datum/evacuation_controller/shuttle/kepler
 
 	default_law_type = /datum/ai_laws/solgov
 	use_overmap = 1

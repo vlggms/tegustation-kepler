@@ -15,8 +15,18 @@
 "d" = (
 /turf/simulated/floor/exoplanet/snow,
 /area/kepler_underground_colony/main_corridor)
+"e" = (
+/obj/machinery/comms_dish/start_broken,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/kepler_underground_colony/main_corridor)
 "f" = (
 /turf/simulated/floor/tiled/dark,
+/area/kepler_underground_colony/main_corridor)
+"g" = (
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/monotile,
 /area/kepler_underground_colony/main_corridor)
 "h" = (
 /obj/machinery/light/medbay{
@@ -37,12 +47,16 @@
 /obj/effect/landmark/disaster_meteor,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/kepler_underground_colony/main_corridor)
+"k" = (
+/obj/effect/shuttle_landmark/emergency_kepler/out,
+/turf/simulated/floor/exoplanet/snow,
+/area/kepler_surface)
 "l" = (
 /obj/effect/landmark/disaster_meteor,
 /turf/simulated/floor/exoplanet/snow,
 /area/kepler_surface)
 "m" = (
-/obj/machinery/door/airlock/glass/civilian,
+/obj/machinery/door/airlock/glass,
 /turf/simulated/floor/tiled/dark,
 /area/kepler_underground_colony/main_corridor)
 "n" = (
@@ -51,7 +65,7 @@
 /area/kepler_underground_colony/main_corridor)
 "o" = (
 /obj/machinery/door/airlock/multi_tile/mining{
-	dir = 4
+	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/kepler_underground_colony/main_corridor)
@@ -85,6 +99,12 @@
 /area/kepler_surface)
 "C" = (
 /obj/effect/landmark/disaster_infestation,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/kepler_underground_colony/main_corridor)
+"D" = (
+/obj/structure/railing/mapped{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/kepler_underground_colony/main_corridor)
 "G" = (
@@ -17427,7 +17447,7 @@ v
 v
 v
 v
-v
+k
 v
 v
 v
@@ -22202,7 +22222,7 @@ v
 v
 v
 d
-V
+P
 V
 V
 V
@@ -22406,7 +22426,7 @@ v
 d
 V
 V
-V
+g
 V
 V
 w
@@ -22609,8 +22629,8 @@ d
 w
 V
 n
-V
-V
+D
+e
 w
 d
 v
