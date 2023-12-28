@@ -4,11 +4,11 @@
 /turf/simulated/floor/tiled,
 /area/kepler_underground_colony/main_corridor)
 "am" = (
-/obj/machinery/door/airlock/glass/engineering,
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled/techmaint,
+/obj/machinery/door/airlock/engineering,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/kepler_underground_colony/engineering)
 "aK" = (
 /obj/machinery/power/apc/high{
@@ -44,6 +44,16 @@
 /obj/item/clothing/head/helmet,
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/armory)
+"bT" = (
+/obj/effect/landmark/disaster_infestation_random,
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
+"cf" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/kepler_underground_colony/militia/hallway)
 "cj" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-8"
@@ -53,6 +63,9 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/main_corridor)
+"cs" = (
+/turf/simulated/floor/tiled/white/monotile,
+/area/kepler_underground_colony/medical)
 "cX" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /turf/simulated/floor/tiled/freezer,
@@ -61,8 +74,14 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-4"
 	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/simulated/floor/tiled/steel_grid,
 /area/kepler_underground_colony/main_corridor)
+"es" = (
+/obj/machinery/sleeper{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
 "eO" = (
 /obj/structure/railing/mapped,
 /turf/simulated/floor/tiled/techmaint,
@@ -79,7 +98,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "0-2"
 	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/kepler_underground_colony/engineering)
 "ff" = (
 /obj/machinery/power/apc/high{
@@ -108,7 +127,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/simulated/floor/tiled/techfloor,
 /area/kepler_underground_colony/militia/checkpoint_a)
 "fY" = (
 /obj/machinery/light/medbay{
@@ -117,6 +136,12 @@
 /obj/machinery/vending/dinnerware,
 /turf/simulated/floor/tiled,
 /area/kepler_underground_colony/main_corridor)
+"fZ" = (
+/obj/machinery/body_scanconsole{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
 "gJ" = (
 /obj/effect/landmark/disaster_infestation_random,
 /turf/simulated/floor/tiled/techmaint,
@@ -126,17 +151,18 @@
 /area/kepler_underground_colony/military/ranger/quarters)
 "gX" = (
 /obj/machinery/light/medbay{
-	dir = 8
+	dir = 4
 	},
+/obj/effect/landmark/disaster_infestation_random,
 /turf/simulated/floor/tiled/techmaint,
-/area/kepler_underground_colony/militia/hallway)
+/area/kepler_underground_colony/main_corridor)
 "hc" = (
 /obj/machinery/door/airlock/multi_tile/security,
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/hallway)
 "hk" = (
 /obj/machinery/vending/engivend,
-/turf/simulated/floor/tiled/techmaint,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/kepler_underground_colony/engineering)
 "hs" = (
 /obj/machinery/light/medbay{
@@ -144,6 +170,12 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/main_corridor)
+"hC" = (
+/obj/machinery/light/medbay{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
 "hP" = (
 /obj/machinery/power/apc/high{
 	dir = 1;
@@ -154,12 +186,21 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/meeting_room)
+"ia" = (
+/obj/machinery/bodyscanner{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
 "ic" = (
 /obj/structure/cable/yellow{
 	icon_state = "2-8"
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/kepler_underground_colony/main_corridor)
+"iB" = (
+/turf/simulated/floor/tiled/techfloor,
+/area/kepler_underground_colony/militia/checkpoint_a)
 "jc" = (
 /obj/machinery/light/medbay,
 /turf/simulated/floor/tiled/techmaint,
@@ -170,8 +211,12 @@
 /area/kepler_underground_colony/main_corridor)
 "jC" = (
 /obj/machinery/vending/engineering,
-/turf/simulated/floor/tiled/techmaint,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/kepler_underground_colony/engineering)
+"jK" = (
+/obj/effect/landmark/disaster_infestation_random,
+/turf/simulated/floor/tiled/freezer,
+/area/kepler_underground_colony/main_corridor)
 "kt" = (
 /obj/machinery/light/medbay{
 	dir = 8
@@ -179,7 +224,7 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/main_corridor)
 "ku" = (
-/obj/effect/landmark/disaster_infestation_random,
+/obj/structure/closet/secure_closet/kepler/military/ranger,
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/military/ranger/armory)
 "kJ" = (
@@ -212,6 +257,10 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/meeting_room)
+"mC" = (
+/obj/machinery/door/airlock/glass/medical,
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
 "mQ" = (
 /turf/simulated/wall/r_titanium,
 /area/kepler_underground_colony/militia/armory)
@@ -232,7 +281,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-8"
 	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/simulated/floor/tiled/techfloor,
 /area/kepler_underground_colony/military/ranger/quarters)
 "nm" = (
 /obj/structure/table/steel_reinforced,
@@ -240,11 +289,31 @@
 /obj/item/grenade/flashbang,
 /obj/item/grenade/flashbang,
 /obj/item/grenade/flashbang,
-/turf/simulated/floor/tiled/techmaint,
+/turf/simulated/floor/tiled/techfloor,
 /area/kepler_underground_colony/militia/armory)
+"nC" = (
+/obj/machinery/light/medbay{
+	dir = 1
+	},
+/obj/effect/landmark/disaster_infestation_random,
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
 "nS" = (
 /turf/simulated/floor/tiled/freezer,
 /area/kepler_underground_colony/main_corridor)
+"nX" = (
+/obj/structure/table/standard,
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
+"oq" = (
+/obj/structure/table/standard,
+/obj/item/book/manual/chemistry_recipes,
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
+"oH" = (
+/obj/structure/bed/chair/padded,
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
 "oT" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -258,6 +327,12 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/main_corridor)
+"pr" = (
+/obj/machinery/light/medbay{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
 "px" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-4"
@@ -276,9 +351,19 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/armory)
+"pU" = (
+/obj/structure/table/standard,
+/obj/machinery/door/window/westleft,
+/obj/machinery/door/window/eastleft,
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
 "pY" = (
 /turf/simulated/wall/r_titanium,
 /area/kepler_underground_colony/militia/meeting_room)
+"qa" = (
+/obj/machinery/chem_master,
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
 "ql" = (
 /obj/structure/bed/chair{
 	dir = 4
@@ -295,11 +380,17 @@
 /obj/machinery/light/medbay,
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/military/ranger/quarters)
+"qW" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/kepler_underground_colony/military/ranger/quarters)
 "ra" = (
 /obj/structure/cable/yellow{
 	icon_state = "2-4"
 	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/simulated/floor/tiled/techfloor,
 /area/kepler_underground_colony/military/ranger/quarters)
 "rb" = (
 /obj/machinery/light/medbay{
@@ -314,7 +405,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-4"
 	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/simulated/floor/tiled/techfloor,
 /area/kepler_underground_colony/militia/hallway)
 "rn" = (
 /obj/effect/landmark/map_data{
@@ -329,6 +420,10 @@
 /obj/machinery/cryopod,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/crew_quarters/cryo)
+"rr" = (
+/obj/effect/landmark/disaster_infestation_random,
+/turf/simulated/floor/tiled/white/monotile,
+/area/kepler_underground_colony/medical)
 "rE" = (
 /obj/machinery/light/medbay{
 	dir = 1
@@ -360,7 +455,7 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/door/airlock/glass/civilian,
-/turf/simulated/floor/tiled/techmaint,
+/turf/simulated/floor/tiled/steel_grid,
 /area/kepler_underground_colony/main_corridor)
 "tb" = (
 /obj/structure/cable/yellow{
@@ -373,8 +468,13 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/simulated/floor/tiled/techfloor,
 /area/kepler_underground_colony/militia/meeting_room)
+"tA" = (
+/obj/machinery/light/medbay,
+/obj/effect/landmark/disaster_infestation_random,
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/military/ranger/armory)
 "tI" = (
 /obj/structure/kitchenspike,
 /turf/simulated/floor/tiled/freezer,
@@ -383,12 +483,16 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/hallway)
 "uh" = (
-/obj/structure/closet/secure_closet/security,
 /obj/machinery/light/medbay{
 	dir = 4
 	},
+/obj/structure/closet/secure_closet/kepler/militia,
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/hallway)
+"vm" = (
+/obj/structure/table/standard,
+/turf/simulated/floor/tiled/white/monotile,
+/area/kepler_underground_colony/medical)
 "vu" = (
 /obj/machinery/power/apc/high{
 	pixel_y = -24
@@ -411,7 +515,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/kepler_underground_colony/engineering)
 "vY" = (
 /obj/structure/cable/yellow{
@@ -432,7 +536,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/kepler_underground_colony/engineering)
 "wo" = (
 /obj/structure/cable/yellow{
@@ -441,7 +545,7 @@
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/crew_quarters/cryo)
 "wp" = (
-/turf/simulated/floor/tiled/techmaint,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/kepler_underground_colony/engineering)
 "ws" = (
 /obj/structure/table/standard,
@@ -464,7 +568,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "0-8"
 	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/kepler_underground_colony/engineering)
 "xe" = (
 /turf/simulated/floor/tiled,
@@ -475,25 +579,54 @@
 "xX" = (
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/main_corridor)
+"ya" = (
+/obj/structure/table/steel_reinforced,
+/turf/simulated/floor/tiled/techfloor,
+/area/kepler_underground_colony/militia/armory)
 "yo" = (
 /obj/machinery/light/medbay{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/kepler_underground_colony/engineering)
+"yr" = (
+/obj/effect/wallframe_spawn/reinforced,
+/turf/simulated/floor/plating,
+/area/kepler_underground_colony/medical)
+"yF" = (
+/obj/machinery/door/airlock/glass/civilian,
+/turf/simulated/floor/tiled/steel_grid,
+/area/kepler_underground_colony/main_corridor)
 "yG" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/main_corridor)
+"yO" = (
+/obj/machinery/light/medbay,
+/turf/simulated/floor/tiled/steel_grid,
+/area/kepler_underground_colony/main_corridor)
 "zc" = (
-/obj/structure/closet/secure_closet/security,
 /obj/machinery/light/medbay{
 	dir = 8
 	},
+/obj/structure/closet/secure_closet/kepler/militia,
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/hallway)
+"Ag" = (
+/obj/machinery/light/medbay,
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
+"Al" = (
+/obj/effect/wallframe_spawn/reinforced,
+/turf/simulated/floor/plating,
+/area/kepler_underground_colony/main_corridor)
+"An" = (
+/obj/structure/table/reinforced,
+/obj/effect/landmark/disaster_infestation_random,
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/main_corridor)
 "Ao" = (
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/meeting_room)
@@ -524,19 +657,56 @@
 /obj/item/gun/launcher/grenade,
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/armory)
+"By" = (
+/turf/simulated/floor/tiled/techfloor,
+/area/kepler_underground_colony/military/ranger/armory)
+"Bz" = (
+/obj/structure/bed/chair/padded{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
+"BQ" = (
+/turf/simulated/floor/tiled/techfloor,
+/area/kepler_underground_colony/militia/armory)
 "BS" = (
 /obj/structure/closet/medical_wall/filled{
 	pixel_y = 32
 	},
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/crew_quarters/cryo)
+"Cl" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
 "Cw" = (
 /obj/effect/landmark/disaster_infestation_random,
-/turf/simulated/floor/tiled/techmaint,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/kepler_underground_colony/engineering)
+"Cz" = (
+/obj/structure/table/standard,
+/obj/machinery/light/medbay,
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
 "CN" = (
 /turf/simulated/wall/r_titanium,
 /area/kepler_underground_colony/main_corridor)
+"CP" = (
+/obj/structure/cable/yellow{
+	icon_state = "4-8"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/kepler_underground_colony/main_corridor)
+"DA" = (
+/obj/machinery/door/airlock/medical,
+/obj/machinery/holosign/surgery,
+/turf/simulated/floor/tiled/white/monotile,
+/area/kepler_underground_colony/medical)
 "Ea" = (
 /obj/effect/landmark{
 	name = "JoinLateCryo"
@@ -546,11 +716,22 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/crew_quarters/cryo)
+"Eh" = (
+/obj/effect/landmark/disaster_infestation_random,
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/military/ranger/armory)
+"EN" = (
+/obj/structure/bed/chair/padded{
+	dir = 1
+	},
+/obj/effect/landmark/disaster_infestation_random,
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
 "Fd" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/kepler_underground_colony/engineering)
 "Fm" = (
 /obj/machinery/door/airlock/security,
@@ -569,6 +750,9 @@
 /obj/machinery/door/airlock/glass/civilian,
 /turf/simulated/floor/tiled/freezer,
 /area/kepler_underground_colony/main_corridor)
+"FR" = (
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
 "FY" = (
 /obj/machinery/door/airlock/security,
 /obj/structure/cable/yellow{
@@ -635,16 +819,32 @@
 "GZ" = (
 /turf/simulated/wall/r_titanium,
 /area/kepler_underground_colony/military/ranger/quarters)
+"Hd" = (
+/obj/machinery/power/apc/high{
+	dir = 1;
+	pixel_y = 24
+	},
+/obj/structure/cable/yellow{
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
 "Hk" = (
 /obj/machinery/light/medbay{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/checkpoint_a)
+"Hm" = (
+/turf/simulated/wall/r_titanium,
+/area/kepler_underground_colony/medical)
 "Hn" = (
 /obj/machinery/cryopod,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/crew_quarters/cryo)
+"HA" = (
+/turf/simulated/floor/tiled/techfloor,
+/area/kepler_underground_colony/militia/hallway)
 "HS" = (
 /turf/simulated/wall/r_titanium,
 /area/kepler_underground_colony/engineering)
@@ -655,11 +855,14 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-4"
 	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/simulated/floor/tiled/techfloor,
 /area/kepler_underground_colony/militia/hallway)
 "HZ" = (
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/checkpoint_a)
+"Ir" = (
+/turf/simulated/floor/tiled/techfloor,
+/area/kepler_underground_colony/militia/meeting_room)
 "Iw" = (
 /obj/structure/table/standard,
 /turf/simulated/floor/tiled/monotile,
@@ -686,13 +889,31 @@
 "JA" = (
 /turf/simulated/floor/tiled/techfloor,
 /area/kepler_underground_colony/engineering)
+"JH" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/kepler_underground_colony/militia/checkpoint_a)
 "JM" = (
 /obj/effect/landmark/disaster_infestation_random,
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/hallway)
+"JT" = (
+/obj/machinery/chemical_dispenser/full,
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
+"Kq" = (
+/obj/machinery/door/airlock/security,
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/hallway)
 "KH" = (
 /turf/simulated/floor/tiled/steel_grid,
 /area/kepler_underground_colony/main_corridor)
+"KQ" = (
+/obj/structure/iv_drip,
+/turf/simulated/floor/tiled/white/monotile,
+/area/kepler_underground_colony/medical)
 "KR" = (
 /obj/structure/table/steel,
 /obj/item/gun/projectile/automatic/t18,
@@ -709,12 +930,6 @@
 	pixel_x = 11
 	},
 /turf/simulated/floor/tiled/white,
-/area/kepler_underground_colony/main_corridor)
-"Lm" = (
-/obj/structure/cable/yellow{
-	icon_state = "2-8"
-	},
-/turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/main_corridor)
 "Ln" = (
 /obj/machinery/light/medbay{
@@ -763,8 +978,14 @@
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/simulated/floor/tiled/techfloor,
 /area/kepler_underground_colony/military/ranger/quarters)
+"Mj" = (
+/obj/machinery/light/medbay{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/main_corridor)
 "Mq" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -772,7 +993,7 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/armory)
 "Ni" = (
-/obj/structure/closet/secure_closet/security,
+/obj/structure/closet/secure_closet/kepler/militia,
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/hallway)
 "Nk" = (
@@ -780,14 +1001,19 @@
 /obj/structure/cable/yellow{
 	icon_state = "0-2"
 	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/kepler_underground_colony/engineering)
 "Nm" = (
 /obj/machinery/light/medbay{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/kepler_underground_colony/engineering)
+"NS" = (
+/obj/structure/table/standard,
+/obj/effect/landmark/disaster_infestation_random,
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
 "Of" = (
 /obj/structure/hygiene/sink/kitchen{
 	dir = 4;
@@ -801,6 +1027,10 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/kepler_underground_colony/engineering)
+"Pf" = (
+/obj/machinery/organ_printer,
+/turf/simulated/floor/tiled/white/monotile,
+/area/kepler_underground_colony/medical)
 "Pm" = (
 /obj/machinery/vending/security,
 /turf/simulated/floor/tiled/techmaint,
@@ -863,6 +1093,16 @@
 /obj/item/gun/projectile/pistol/military,
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/armory)
+"Ql" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/kepler_underground_colony/militia/meeting_room)
+"Qo" = (
+/obj/effect/landmark/disaster_infestation_random,
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/checkpoint_a)
 "QC" = (
 /obj/structure/closet/emcloset,
 /turf/simulated/floor/tiled/techmaint,
@@ -898,7 +1138,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/door/airlock/glass/civilian,
-/turf/simulated/floor/tiled/techmaint,
+/turf/simulated/floor/tiled/steel_grid,
 /area/kepler_underground_colony/main_corridor)
 "Sd" = (
 /obj/structure/table/steel_reinforced,
@@ -941,12 +1181,18 @@
 /obj/structure/cable/yellow{
 	icon_state = "0-4"
 	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/kepler_underground_colony/engineering)
 "TG" = (
 /obj/machinery/vending/hotfood,
 /turf/simulated/floor/tiled,
 /area/kepler_underground_colony/main_corridor)
+"TL" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/kepler_underground_colony/militia/armory)
 "TN" = (
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/crew_quarters/cryo)
@@ -960,6 +1206,10 @@
 /obj/structure/table/steel,
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/military/ranger/armory)
+"Uq" = (
+/obj/effect/landmark/disaster_infestation_random,
+/turf/simulated/floor/tiled,
+/area/kepler_underground_colony/main_corridor)
 "Uu" = (
 /obj/structure/table/steel,
 /turf/simulated/floor/tiled/techmaint,
@@ -968,10 +1218,20 @@
 /obj/machinery/door/window/northleft,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/main_corridor)
+"Vf" = (
+/obj/machinery/light/medbay{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white/monotile,
+/area/kepler_underground_colony/medical)
 "Vg" = (
 /obj/structure/table/steel,
-/turf/simulated/floor/tiled/techmaint,
+/turf/simulated/floor/tiled/techfloor,
 /area/kepler_underground_colony/militia/meeting_room)
+"Vh" = (
+/obj/machinery/optable,
+/turf/simulated/floor/tiled/white/monotile,
+/area/kepler_underground_colony/medical)
 "Vs" = (
 /obj/machinery/power/apc/high{
 	pixel_y = -24
@@ -1000,6 +1260,12 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/hallway)
+"Wr" = (
+/obj/machinery/light/medbay{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
 "Wv" = (
 /obj/effect/wallframe_spawn/reinforced,
 /turf/simulated/floor/plating,
@@ -1014,11 +1280,14 @@
 /obj/effect/wallframe_spawn/reinforced,
 /turf/simulated/floor/plating,
 /area/kepler_underground_colony/militia/checkpoint_a)
+"XV" = (
+/turf/simulated/floor/tiled/techfloor,
+/area/kepler_underground_colony/military/ranger/quarters)
 "XZ" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-4"
 	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/kepler_underground_colony/engineering)
 "Yb" = (
 /obj/machinery/light/medbay{
@@ -1048,6 +1317,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/kepler_underground_colony/main_corridor)
+"YP" = (
+/obj/machinery/door/airlock/glass/medical,
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
 "YW" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -1061,6 +1337,12 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/armory)
+"ZY" = (
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/kepler_underground_colony/military/ranger/armory)
 
 (1,1,1) = {"
 RB
@@ -14439,37 +14721,37 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
 qA
 qA
 qA
@@ -14641,37 +14923,37 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
+CN
+xX
+xX
+xX
+xX
+kt
+xX
+bn
+xX
+xX
+xX
+kt
+xX
+xX
+xX
+xX
+kt
+xX
+xX
+xX
+xX
+xX
+kt
+xX
+xX
+xX
+xX
+xX
+kt
+xX
+CN
 qA
 qA
 qA
@@ -14843,37 +15125,37 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
+CN
+xX
+KH
+KH
+KH
+KH
+KH
+KH
+KH
+KH
+KH
+KH
+KH
+KH
+KH
+KH
+KH
+KH
+KH
+KH
+KH
+KH
+KH
+KH
+KH
+KH
+KH
+KH
+KH
+xX
+CN
 qA
 qA
 qA
@@ -15045,37 +15327,37 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
+CN
+Mj
+KH
+xX
+xX
+xX
+xX
+xX
+xX
+xX
+xX
+xX
+xX
+xX
+xX
+xX
+xX
+xX
+xX
+xX
+xX
+xX
+xX
+xX
+xX
+xX
+xX
+bn
+KH
+xX
+CN
 qA
 qA
 qA
@@ -15247,11 +15529,11 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
+CN
+xX
+KH
+xX
+CN
 pY
 pY
 pY
@@ -15261,6 +15543,7 @@ pY
 pY
 pY
 qm
+Kq
 qm
 qm
 qm
@@ -15270,14 +15553,13 @@ qm
 qm
 qm
 qm
-qm
-qA
-qA
-qA
-qA
-qA
-qA
-qA
+CN
+CN
+CN
+xX
+KH
+xX
+CN
 qA
 qA
 qA
@@ -15449,11 +15731,11 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
+CN
+xX
+KH
+xX
+CN
 pY
 mq
 Ao
@@ -15463,8 +15745,8 @@ Ao
 Ao
 pY
 Pm
-gX
 tU
+jc
 qm
 Ni
 Ni
@@ -15475,11 +15757,11 @@ Ni
 qm
 qA
 qA
-qA
-qA
-qA
-qA
-qA
+CN
+xX
+KH
+xX
+CN
 qA
 qA
 qA
@@ -15651,37 +15933,37 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
+CN
+xX
+KH
+xX
+CN
 pY
 Ao
 Vg
-Ao
-Ao
+Ir
+Ir
 Vg
 Ao
 pY
-tU
-tU
+JM
+HA
 tU
 hc
 tU
-tU
-tU
-tU
-tU
+HA
+HA
+HA
+HA
 tU
 qm
 qA
 qA
-qA
-qA
-qA
-qA
-qA
+CN
+xX
+KH
+bd
+CN
 qA
 qA
 qA
@@ -15853,11 +16135,11 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
+CN
+xX
+KH
+xX
+CN
 pY
 rE
 Vg
@@ -15867,23 +16149,23 @@ Vg
 vV
 pY
 tU
+HA
 tU
 tU
 tU
-tU
-tU
-tU
-tU
-tU
+HA
+HA
+HA
+HA
 JM
 qm
 qA
 qA
-qA
-qA
-qA
-qA
-qA
+CN
+xX
+KH
+xX
+CN
 qA
 qA
 qA
@@ -16055,21 +16337,21 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
+CN
+xX
+KH
+xX
+CN
 pY
 Ao
-Ao
+Ir
 Vg
 Vg
-Ao
+Ir
 Ao
 pY
 tU
-tU
+HA
 tU
 qm
 Ni
@@ -16081,11 +16363,11 @@ Ni
 qm
 qA
 qA
-qA
-qA
-qA
-qA
-qA
+CN
+xX
+KH
+xX
+CN
 qA
 qA
 qA
@@ -16257,22 +16539,22 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
+CN
+Mj
+KH
+xX
+CN
 pY
 Ao
-Ao
+Ir
 Vg
 Vg
-Ao
+Ir
 Ao
 pY
 tU
+HA
 tU
-tU
 mQ
 mQ
 mQ
@@ -16284,10 +16566,10 @@ mQ
 mQ
 mQ
 mQ
-qA
-qA
-qA
-qA
+xX
+KH
+xX
+CN
 qA
 qA
 qA
@@ -16459,17 +16741,17 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
+CN
+xX
+KH
+xX
+CN
 pY
 hP
-mx
+Ql
 te
 te
-mx
+Ql
 mx
 FY
 VY
@@ -16486,10 +16768,10 @@ Qh
 pI
 PS
 mQ
-qA
-qA
-qA
-qA
+xX
+KH
+xX
+CN
 qA
 qA
 qA
@@ -16661,37 +16943,37 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
+CN
+xX
+KH
+xX
+CN
 pY
 Ao
-Ao
+Ir
 Vg
 Vg
-Ao
+Ir
 Ao
 pY
 tU
-RI
+cf
 jc
 mQ
 TX
-xL
+BQ
 xL
 Wv
 LG
-xL
-Sd
-xL
+BQ
+ya
+BQ
 bS
 mQ
-qA
-qA
-qA
-qA
+xX
+KH
+xX
+CN
 qA
 qA
 qA
@@ -16863,37 +17145,37 @@ HS
 HS
 HS
 HS
-qA
-qA
-qA
-qA
-qA
+CN
+xX
+KH
+xX
+CN
 pY
 Ao
-Ao
+Ir
 Vg
 Vg
-Ao
+Ir
 Ao
 pY
 tU
-RI
+cf
 tU
 Wv
 ZX
-Mq
+TL
 Mq
 Fm
 Mq
-Mq
-Mq
-Mq
+TL
+TL
+TL
 SK
 mQ
-qA
-qA
-qA
-qA
+xX
+KH
+bd
+CN
 qA
 qA
 qA
@@ -17065,11 +17347,11 @@ wp
 yo
 Cw
 HS
-qA
-qA
-qA
-qA
-qA
+CN
+xX
+KH
+xX
+CN
 pY
 rE
 Vg
@@ -17079,23 +17361,23 @@ Vg
 vV
 pY
 tU
-RI
+cf
 tU
 Wv
 xL
-xL
+BQ
 xL
 Wv
 Sd
-xL
+BQ
 nm
-xL
+BQ
 Sd
 mQ
-qA
-qA
-qA
-qA
+xX
+KH
+xX
+CN
 qA
 qA
 qA
@@ -17267,21 +17549,21 @@ JA
 JA
 wp
 HS
-qA
-qA
-qA
-qA
-qA
+CN
+xX
+KH
+xX
+CN
 pY
 Ao
 Vg
-Ao
-Ao
+Ir
+Ir
 Vg
 Ao
 pY
 tU
-RI
+cf
 tU
 mQ
 xL
@@ -17294,10 +17576,10 @@ Br
 rb
 Sd
 mQ
-qA
-qA
-qA
-qA
+xX
+KH
+xX
+CN
 qA
 qA
 qA
@@ -17469,11 +17751,11 @@ JA
 JA
 wp
 HS
-qA
-qA
-qA
-qA
-qA
+CN
+Mj
+KH
+xX
+CN
 pY
 Ao
 Ao
@@ -17496,10 +17778,10 @@ mQ
 mQ
 mQ
 mQ
-qA
-qA
-qA
-qA
+xX
+KH
+xX
+CN
 qA
 qA
 qA
@@ -17671,11 +17953,11 @@ JA
 JA
 wp
 HS
-qA
-qA
-qA
-qA
-qA
+CN
+xX
+KH
+xX
+CN
 pY
 pY
 pY
@@ -17685,7 +17967,7 @@ pY
 pY
 pY
 tU
-RI
+cf
 tU
 qm
 gJ
@@ -17698,10 +17980,10 @@ RO
 RO
 RO
 rO
-qA
-qA
-qA
-qA
+xX
+KH
+xX
+CN
 qA
 qA
 qA
@@ -17873,11 +18155,11 @@ JA
 JA
 wp
 HS
-qA
-qA
-qA
-qA
-qA
+CN
+bn
+KH
+xX
+CN
 kJ
 Uu
 HZ
@@ -17887,23 +18169,23 @@ HZ
 HZ
 kJ
 tU
-RI
+cf
 jc
 qm
 gQ
-gQ
+XV
 ra
 PR
 Gi
 tb
-tb
-tb
+ZY
+ZY
 Vs
 rO
-qA
-qA
-qA
-qA
+xX
+KH
+xX
+CN
 qA
 qA
 qA
@@ -18075,17 +18357,17 @@ JA
 JA
 wp
 HS
-qA
-qA
-qA
-qA
-qA
+CN
+xX
+KH
+xX
+CN
 kJ
 Uu
-HZ
+iB
 fQ
-nc
-nc
+JH
+JH
 nc
 Bh
 VY
@@ -18093,19 +18375,19 @@ HV
 tU
 qm
 gQ
-gQ
+XV
 LT
 qN
 rO
-RO
-RO
-RO
+Eh
+By
+By
 VR
 rO
-qA
-qA
-qA
-qA
+xX
+KH
+bd
+CN
 qA
 qA
 qA
@@ -18277,37 +18559,37 @@ JA
 JA
 wp
 HS
-qA
-qA
-qA
-qA
-qA
+CN
+xX
+KH
+xX
+CN
 kJ
-HZ
-HZ
-HZ
-HZ
-HZ
+Qo
+iB
+iB
+iB
+iB
 HZ
 kJ
 tU
-RI
+cf
 tU
 qm
 gQ
-gQ
+XV
 LT
 gQ
 rO
-ku
 RO
-RO
+By
+By
 RO
 rO
-qA
-qA
-qA
-qA
+xX
+KH
+xX
+CN
 qA
 qA
 qA
@@ -18479,11 +18761,11 @@ wp
 Nm
 wp
 HS
-qA
-qA
-qA
-qA
-qA
+CN
+xX
+KH
+xX
+CN
 kJ
 Uu
 Uu
@@ -18494,22 +18776,22 @@ HZ
 kJ
 tU
 RI
-tU
+JM
 qm
 gQ
-gQ
+XV
 LT
 gQ
 rO
 Uh
-RO
-RO
-Uh
+By
+By
+ku
 rO
-qA
-qA
-qA
-qA
+xX
+KH
+xX
+CN
 qA
 qA
 qA
@@ -18682,9 +18964,9 @@ HS
 HS
 HS
 CN
-CN
-CN
-CN
+Al
+yF
+Al
 CN
 kJ
 kJ
@@ -18699,19 +18981,19 @@ Gl
 qm
 qm
 gJ
-gQ
+XV
 LT
 gQ
 rO
 Uh
-RO
-RO
-Uh
+By
+By
+ku
 rO
-qA
-qA
-qA
-qA
+xX
+KH
+xX
+CN
 qA
 qA
 qA
@@ -18885,7 +19167,7 @@ xX
 xX
 xX
 xX
-kt
+KH
 xX
 xX
 xX
@@ -18898,22 +19180,22 @@ xX
 kt
 xX
 rK
-xX
+bn
 GZ
 gQ
-gQ
+XV
 LT
 gQ
 rO
 RO
-RO
-RO
+By
+By
 ku
 rO
-qA
-qA
-qA
-qA
+xX
+KH
+xX
+CN
 qA
 qA
 qA
@@ -19103,19 +19385,19 @@ Yh
 xX
 GZ
 gQ
-gQ
+XV
 LT
 gQ
 rO
 Uh
-RO
-RO
-Uh
+By
+By
+ku
 rO
-qA
-qA
-qA
-qA
+xX
+KH
+bn
+CN
 qA
 qA
 qA
@@ -19305,19 +19587,19 @@ vY
 yG
 YW
 PR
-PR
+qW
 ng
 aK
 rO
 Uh
-RO
-RO
-Uh
+By
+By
+ku
 rO
-qA
-qA
-qA
-qA
+xX
+KH
+bd
+CN
 qA
 qA
 qA
@@ -19507,19 +19789,19 @@ Yh
 xX
 GZ
 gQ
-gQ
-gQ
+XV
+XV
 qN
 rO
 RO
-RO
-RO
-VR
+By
+By
+tA
 rO
-qA
-qA
-qA
-qA
+xX
+KH
+xX
+CN
 qA
 qA
 qA
@@ -19678,6 +19960,21 @@ qA
 qA
 CN
 AY
+gX
+xX
+xX
+xX
+xX
+WK
+xX
+xX
+xX
+xX
+WK
+xX
+bn
+xX
+xX
 WK
 xX
 xX
@@ -19690,38 +19987,23 @@ xX
 xX
 WK
 xX
-xX
-xX
-xX
-WK
-xX
-xX
-xX
-xX
-WK
-xX
-xX
-xX
-xX
-WK
-xX
-rK
+Yh
 xX
 GZ
 gQ
-gQ
-gQ
+XV
+XV
 gQ
 rO
 KR
-RO
-RO
+By
+By
 fI
 rO
-qA
-qA
-qA
-qA
+xX
+KH
+xX
+CN
 qA
 qA
 qA
@@ -19920,10 +20202,10 @@ RO
 RO
 SC
 rO
-qA
-qA
-qA
-qA
+xX
+KH
+xX
+CN
 qA
 qA
 qA
@@ -20097,35 +20379,35 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
+Hm
+es
+es
+es
+es
+yr
+oH
+FR
+Wr
+EN
+yr
+xX
+Yh
+bn
+GZ
+GZ
+GZ
+GZ
+GZ
+rO
+rO
+rO
+rO
+rO
+rO
+xX
+KH
+xX
 CN
-xX
-rK
-xX
-GZ
-GZ
-GZ
-GZ
-GZ
-rO
-rO
-rO
-rO
-rO
-rO
-qA
-qA
-qA
-qA
 qA
 qA
 qA
@@ -20299,19 +20581,19 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-CN
+Hm
+pr
+FR
+FR
+bT
+yr
+oH
+FR
+FR
+Bz
+yr
 xX
-rK
+Yh
 bd
 CN
 qA
@@ -20323,11 +20605,11 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
+CN
+xX
+KH
+xX
+CN
 qA
 qA
 qA
@@ -20501,7 +20783,21 @@ qA
 qA
 qA
 qA
-qA
+Hm
+Hd
+Cl
+Cl
+Cl
+YP
+Cl
+Cl
+Cl
+Cl
+YP
+yG
+CP
+xX
+CN
 qA
 qA
 qA
@@ -20513,23 +20809,9 @@ qA
 qA
 CN
 xX
-rK
-xX
+KH
+bd
 CN
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
 qA
 qA
 qA
@@ -20703,7 +20985,21 @@ qA
 qA
 qA
 qA
-qA
+Hm
+ia
+fZ
+FR
+FR
+yr
+oH
+FR
+FR
+FR
+yr
+xX
+Yh
+xX
+CN
 qA
 qA
 qA
@@ -20715,23 +21011,9 @@ qA
 qA
 CN
 xX
-rK
+KH
 xX
 CN
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
 qA
 qA
 qA
@@ -20905,35 +21187,35 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
+Hm
+FR
+FR
+FR
+FR
+yr
+oH
+FR
+FR
+FR
+yr
+xX
+Yh
+xX
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
 CN
 xX
-rK
+KH
 xX
 CN
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
 qA
 qA
 qA
@@ -21107,35 +21389,35 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-CN
+Hm
+ia
+fZ
+FR
+FR
+Hm
+yr
+yr
+pU
+yr
+Hm
 xX
-rK
+Yh
+xX
+Al
+xX
+xX
+xX
+xX
+xX
+xX
+xX
+xX
+xX
+xX
+xX
+KH
 xX
 CN
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
 qA
 qA
 qA
@@ -21309,35 +21591,35 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-CN
+Hm
+FR
+FR
+FR
+FR
+yr
+JT
+FR
+FR
+NS
+Hm
 xX
-rK
-bd
+Yh
+yO
+yF
+KH
+KH
+KH
+KH
+KH
+KH
+KH
+KH
+KH
+KH
+KH
+KH
+xX
 CN
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
 qA
 qA
 qA
@@ -21511,35 +21793,35 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-CN
+Hm
+nC
+FR
+FR
+FR
+yr
+qa
+FR
+FR
+nX
+Hm
 xX
-rK
+Yh
+xX
+Al
+xX
+bn
+xX
+xX
+xX
+WK
+xX
+xX
+xX
+xX
+xX
+WK
 xX
 CN
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
 qA
 qA
 qA
@@ -21713,35 +21995,35 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-CN
+Hm
+FR
+FR
+FR
+FR
+yr
+nX
+FR
+FR
+Cz
+Hm
 xX
-rK
+Yh
 xX
 CN
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
 qA
 qA
 qA
@@ -21915,19 +22197,19 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-CN
+Hm
+FR
+FR
+FR
+FR
+yr
+NS
+FR
+FR
+oq
+Hm
 xX
-rK
+Yh
 xX
 CN
 qA
@@ -22117,19 +22399,19 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-CN
+Hm
+FR
+FR
+FR
+FR
+Hm
+yr
+yr
+mC
+yr
+Hm
 xX
-rK
+Yh
 xX
 CN
 qA
@@ -22319,19 +22601,19 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-CN
+Hm
+FR
+FR
+FR
+FR
+FR
+FR
+FR
+FR
+FR
+Hm
 xX
-rK
+Yh
 bd
 CN
 CN
@@ -22521,19 +22803,19 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-CN
+Hm
+FR
+FR
+FR
+FR
+FR
+FR
+FR
+FR
+FR
+Hm
 xX
-rK
+Yh
 xX
 CN
 mS
@@ -22723,22 +23005,22 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-CN
+Hm
+pr
+FR
+FR
+FR
+FR
+FR
+FR
+FR
+Ag
+Hm
 bn
-rK
+Yh
 xX
 CN
-xe
+Uq
 xe
 xe
 xe
@@ -22925,19 +23207,19 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-CN
+Hm
+FR
+FR
+FR
+FR
+FR
+FR
+FR
+FR
+FR
+Hm
 xX
-rK
+Yh
 xX
 CN
 xe
@@ -23127,19 +23409,19 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-CN
+Hm
+bT
+FR
+FR
+FR
+hC
+FR
+FR
+FR
+bT
+Hm
 xX
-rK
+Yh
 xX
 CN
 xe
@@ -23151,7 +23433,7 @@ xe
 Yi
 RP
 RP
-ls
+An
 CN
 qA
 qA
@@ -23329,19 +23611,19 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-CN
+Hm
+Hm
+DA
+Hm
+Hm
+Hm
+Hm
+DA
+Hm
+Hm
+Hm
 xX
-rK
+Yh
 bd
 CN
 Yp
@@ -23531,19 +23813,19 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-CN
+Hm
+rr
+cs
+cs
+vm
+Hm
+rr
+cs
+cs
+vm
+Hm
 xX
-rK
+Yh
 xX
 ah
 xe
@@ -23733,19 +24015,19 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-CN
+Hm
+cs
+cs
+cs
+vm
+Hm
+cs
+cs
+cs
+vm
+Hm
 xX
-rK
+Yh
 xX
 CN
 xe
@@ -23935,19 +24217,19 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-CN
+Hm
+cs
+cs
+cs
+Vh
+Hm
+cs
+cs
+cs
+Vh
+Hm
 xX
-rK
+Yh
 xX
 CN
 xe
@@ -24137,19 +24419,19 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-CN
+Hm
+Pf
+Vf
+rr
+KQ
+Hm
+Pf
+Vf
+rr
+KQ
+Hm
 xX
-rK
+Yh
 xX
 CN
 xe
@@ -24157,7 +24439,7 @@ pC
 Ln
 pC
 pC
-xe
+Uq
 jf
 hs
 RP
@@ -24339,19 +24621,19 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-CN
+Hm
+Hm
+Hm
+Hm
+Hm
+Hm
+Hm
+Hm
+Hm
+Hm
+Hm
 xX
-rK
+Yh
 bd
 CN
 CN
@@ -24553,7 +24835,7 @@ qA
 qA
 CN
 xX
-rK
+Yh
 xX
 CN
 xX
@@ -24563,7 +24845,7 @@ kt
 bn
 CN
 tI
-nS
+jK
 nS
 cX
 CN
@@ -24755,13 +25037,13 @@ qA
 qA
 CN
 xX
-Lm
-yG
+ic
+PX
 RQ
 dP
-xX
-xX
-xX
+KH
+KH
+KH
 xX
 CN
 tI
@@ -24958,7 +25240,7 @@ qA
 CN
 xX
 xX
-xX
+bn
 CN
 rK
 xX
@@ -25170,7 +25452,7 @@ QR
 QR
 tI
 nS
-nS
+jK
 RC
 CN
 qA

@@ -261,6 +261,11 @@
 	name = "Disaster - Meteor Landmark"
 	icon_state = "meteor"
 
+// This only defines a z-level available for bombardment
+/obj/effect/landmark/disaster_meteor_dynamic
+	name = "Disaster - Meteor Dynamic Landmark"
+	icon_state = "meteor"
+
 /obj/effect/landmark/disaster_infestation
 	name = "Disaster - Infestation Epicenter Landmark"
 	icon_state = "infestation"

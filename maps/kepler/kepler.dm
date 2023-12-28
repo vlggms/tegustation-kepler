@@ -34,6 +34,8 @@
 
 	#include "machinery/airlock.dm"
 
+	#include "structures/closets.dm"
+
 	#include "kepler_underground.dmm"
 	#include "kepler_surface.dmm"
 	#include "kepler_surface2.dmm"

@@ -20,4 +20,4 @@
 	var/dtype = pickweight(disaster_types)
 	var/datum/disaster/D = new dtype
 	message_admins("[D.name] disaster type has been selected!")
-	addtimer(CALLBACK(D, /datum/disaster/proc/Trigger), rand(1 MINUTES, 2 MINUTES))
+	INVOKE_ASYNC(D, /datum/disaster/proc/Start)

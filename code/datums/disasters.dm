@@ -2,9 +2,24 @@
 /datum/disaster
 	var/name = "Normal Disaster Type"
 	var/weight = 0
+	/// How much time needs to pass after trigger effect for first dynamic to hit
+	var/dynamic_start_delay = 1 MINUTES
+	/// Delay between each "process" of dynamic effect
+	var/dynamic_delay = 1 MINUTES
 
-/datum/disaster/proc/Trigger()
-	qdel(src)
+/// Called by gamemode on round-start.
+/datum/disaster/proc/Start()
+	addtimer(CALLBACK(src, .proc/TriggerEffect), rand(1 MINUTES, 2 MINUTES))
+	return
+
+/// Called by Start() after random delay. Handles starting effects.
+/datum/disaster/proc/TriggerEffect()
+	addtimer(CALLBACK(src, .proc/DynamicEffect), dynamic_start_delay)
+	return
+
+/// Called every minute.
+/datum/disaster/proc/DynamicEffect()
+	addtimer(CALLBACK(src, .proc/DynamicEffect), dynamic_delay)
 	return
 
 /datum/disaster/proc/AnnounceDisaster()
@@ -14,6 +29,8 @@
 /datum/disaster/meteors
 	name = "Meteors"
 	weight = 10
+	dynamic_start_delay = 5 MINUTES
+	dynamic_delay = 2 MINUTES
 	/// How many meteors will hit critical (landmarked) areas
 	var/meteor_landmark_count = 5
 	/// Weighted list of turf types that get placed in meteor areas
@@ -21,8 +38,10 @@
 		/turf/simulated/mineral = 70,
 		/turf/simulated/mineral/random = 30,
 		)
+	var/dynamic_radius = 1
+	var/dynamic_count = 5
 
-/datum/disaster/meteors/Trigger()
+/datum/disaster/meteors/TriggerEffect()
 	var/list/meteor_turfs = list()
 	for(var/obj/effect/landmark/disaster_meteor/L in landmarks_list)
 		meteor_turfs += get_turf(L)
@@ -41,6 +60,26 @@
 
 	return ..()
 
+// Throws meteors all over the place that grow in size as time goes.
+/datum/disaster/meteors/DynamicEffect()
+	var/list/zlevels = list()
+	for(var/obj/effect/landmark/disaster_meteor_dynamic/L in landmarks_list)
+		zlevels |= L.z
+
+	var/list/valid_turfs = list()
+	valid_turfs = get_turfs_in_zlevels(zlevels, list(/proc/is_not_space_area), list(/proc/is_not_open_space, /proc/is_not_mineral_turf))
+
+	for(var/i = 1 to dynamic_count)
+		if(!LAZYLEN(valid_turfs))
+			break
+
+		var/turf/T = pick(valid_turfs)
+		valid_turfs -= T
+		addtimer(CALLBACK(src, .proc/MeteorHit, T, round(dynamic_radius)), rand(2, 5 SECONDS))
+
+	dynamic_radius = min(dynamic_radius + 0.1, 4)
+	return ..()
+
 /datum/disaster/meteors/AnnounceDisaster()
 	command_announcement.Announce(
 		"The surface of colony has been hit with multiple meteorites, damaging critical infrastructure in the process. \n\
@@ -49,7 +88,7 @@
 		'sound/effects/alarm_catastrophe.ogg'
 		)
 
-/datum/disaster/meteors/proc/MeteorHit(turf/T)
+/datum/disaster/meteors/proc/MeteorHit(turf/T, radius = 7)
 	if(!istype(T))
 		return
 
@@ -57,22 +96,30 @@
 		if(!(M.z in GLOB.using_map.station_levels))
 			continue
 		var/S = 'sound/effects/explosionsmallfar.ogg'
-		if(M.z == T.z)
+		if(M.z == T.z && radius >= 5)
 			S = 'sound/effects/explosionfar.ogg'
 		M.playsound_local(get_turf(M), S, rand(35, 100))
-		shake_camera(M, 1, 1)
+		shake_camera(M, radius * 0.2, radius * 0.2)
 
-	explosion(T, -1, -1, 12)
-	for(var/turf/TT in range(7, T))
+	explosion(T, -1, -1, min(radius * 2, 32))
+	for(var/turf/TT in range(radius, T))
 		if(prob((get_dist(T, TT) - 1) * 12))
 			continue
-		var/turf_type = pickweight(mineral_types)
-		TT.ChangeTurf(turf_type, keep_air = TRUE)
+		PlaceMineral(TT)
+
+/datum/disaster/meteors/proc/PlaceMineral(turf/T)
+	// Kill shit, break stuff
+	for(var/atom/movable/AM in T)
+		AM.ex_act(pick(1, 2))
+	var/turf_type = pickweight(mineral_types)
+	T.ChangeTurf(turf_type, keep_air = TRUE)
 
 /* Infestation */
 /datum/disaster/infestation
 	name = "Infestation"
 	weight = 10
+	dynamic_start_delay = 10 MINUTES
+	dynamic_delay = 4 MINUTES
 	/// How many random mobs will be spawned at the epicenter
 	var/center_mob_count = 35
 	/// Weighted list of mob types that will be spawned at the center
@@ -92,7 +139,7 @@
 		/mob/living/simple_animal/hostile/infestation/larva/implant/implanter = 5,
 		)
 
-/datum/disaster/infestation/Trigger()
+/datum/disaster/infestation/TriggerEffect()
 	var/warn_sound = pick(\
 		'sound/simple_mob/abominable_infestation/leviathan/wail1.ogg',\
 		'sound/simple_mob/abominable_infestation/leviathan/wail1-long.ogg',\

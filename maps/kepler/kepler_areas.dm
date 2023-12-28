@@ -55,6 +55,12 @@
 	icon_state = "engine"
 	req_access = list(access_engineering)
 
+// Medical
+/area/kepler_underground_colony/medical
+	name = "\improper Medical"
+	icon_state = "medbay"
+	req_access = list(access_medical)
+
 // Militia
 /area/kepler_underground_colony/militia
 	icon_state = "security"
