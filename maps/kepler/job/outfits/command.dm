@@ -6,7 +6,8 @@
 /decl/hierarchy/outfit/job/kepler/command/governor
 	name = OUTFIT_JOB_NAME("Colony Governor")
 	glasses = /obj/item/clothing/glasses/sunglasses
-	uniform = /obj/item/clothing/under/captainformal
+	uniform = /obj/item/clothing/under/romulus/ranger
+	suit = /obj/item/clothing/suit/storage/romulus_officer
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_types = list(/obj/item/card/id/kepler/gold)
 	pda_type = /obj/item/modular_computer/pda/captain

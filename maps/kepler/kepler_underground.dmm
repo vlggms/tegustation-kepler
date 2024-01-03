@@ -1,4 +1,18 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ae" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/table/steel,
+/obj/effect/floor_decal/corner/black/border{
+	dir = 5
+	},
+/obj/effect/floor_decal/corner/black/diagonal,
+/turf/simulated/floor/tiled/monotile,
+/area/kepler_underground_colony/main_corridor)
 "ah" = (
 /obj/machinery/door/airlock/glass/civilian,
 /turf/simulated/floor/tiled,
@@ -21,8 +35,18 @@
 	pixel_y = -24
 	},
 /obj/structure/cable/yellow,
+/obj/effect/floor_decal/corner/black/border,
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/military/ranger/quarters)
+"aO" = (
+/obj/effect/floor_decal/corner/black/diagonal,
+/turf/simulated/floor/tiled/monotile,
+/area/kepler_underground_colony/main_corridor)
+"aY" = (
+/obj/machinery/light/medbay,
+/obj/effect/floor_decal/corner/blue/border,
+/turf/simulated/floor/tiled/dark,
+/area/kepler_underground_colony/main_corridor)
 "bd" = (
 /obj/machinery/light/medbay,
 /turf/simulated/floor/tiled/techmaint,
@@ -42,6 +66,7 @@
 /obj/machinery/chemical_dispenser/bar_soft/full{
 	dir = 1
 	},
+/obj/effect/floor_decal/corner/lime/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/main_corridor)
 "bS" = (
@@ -54,12 +79,22 @@
 /obj/item/clothing/head/helmet,
 /obj/item/clothing/head/helmet,
 /obj/item/clothing/head/helmet,
+/obj/effect/floor_decal/corner/red/border,
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/armory)
 "bT" = (
 /obj/effect/landmark/disaster_infestation_random,
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 5
+	},
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/medical)
+"ca" = (
+/obj/effect/floor_decal/corner/red/border{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/meeting_room)
 "cf" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -75,12 +110,53 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/main_corridor)
+"cm" = (
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kepler_underground_colony/main_corridor)
 "cs" = (
 /turf/simulated/floor/tiled/white/monotile,
 /area/kepler_underground_colony/medical)
+"cv" = (
+/obj/machinery/door/airlock/multi_tile/command,
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/main_corridor)
+"cJ" = (
+/obj/effect/floor_decal/corner/black/border{
+	dir = 1
+	},
+/obj/structure/dispenser/oxygen,
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/military/ranger/armory)
 "cX" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /turf/simulated/floor/tiled/freezer,
+/area/kepler_underground_colony/main_corridor)
+"dE" = (
+/obj/structure/table/standard,
+/obj/effect/floor_decal/corner/blue/border,
+/obj/item/reagent_containers/glass/beaker/large,
+/obj/item/reagent_containers/syringe,
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
+"dL" = (
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kepler_underground_colony/main_corridor)
+"dM" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/table/steel,
+/obj/effect/floor_decal/corner/black/border{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/black/diagonal,
+/turf/simulated/floor/tiled/monotile,
 /area/kepler_underground_colony/main_corridor)
 "dP" = (
 /obj/structure/cable/yellow{
@@ -107,8 +183,15 @@
 /obj/machinery/sleeper{
 	dir = 4
 	},
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 9
+	},
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/medical)
+"eN" = (
+/obj/effect/floor_decal/corner/red/border,
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/meeting_room)
 "eO" = (
 /obj/structure/railing/mapped,
 /turf/simulated/floor/tiled/techmaint,
@@ -155,6 +238,19 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/kepler_underground_colony/militia/checkpoint_a)
+"fp" = (
+/obj/effect/floor_decal/corner/red/border{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/meeting_room)
+"fB" = (
+/obj/effect/landmark/disaster_infestation_random,
+/obj/effect/floor_decal/corner/red/border{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/hallway)
 "fI" = (
 /obj/structure/table/steel,
 /obj/item/grenade/light,
@@ -166,19 +262,40 @@
 /obj/item/grenade/light,
 /obj/item/grenade/light,
 /obj/item/grenade/light,
+/obj/effect/floor_decal/corner/black/border,
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/military/ranger/armory)
+"fK" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced,
+/obj/structure/table/steel,
+/obj/effect/floor_decal/corner/black/border{
+	dir = 6
+	},
+/obj/effect/floor_decal/corner/black/diagonal,
+/turf/simulated/floor/tiled/monotile,
+/area/kepler_underground_colony/main_corridor)
 "fQ" = (
 /obj/structure/cable/yellow{
 	icon_state = "2-8"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/kepler_underground_colony/militia/checkpoint_a)
+"fW" = (
+/obj/effect/landmark/disaster_infestation_random,
+/obj/effect/floor_decal/corner/black/border{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/military/ranger/quarters)
 "fY" = (
 /obj/machinery/light/medbay{
 	dir = 8
 	},
 /obj/machinery/vending/dinnerware,
+/obj/effect/floor_decal/corner/lightgrey/diagonal,
 /turf/simulated/floor/tiled,
 /area/kepler_underground_colony/main_corridor)
 "fZ" = (
@@ -187,13 +304,46 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/medical)
+"gb" = (
+/obj/effect/floor_decal/corner/blue/border,
+/obj/structure/table/rack,
+/obj/item/storage/firstaid/fire,
+/obj/item/storage/firstaid/fire,
+/obj/item/storage/firstaid/fire,
+/obj/item/storage/firstaid/fire,
+/obj/item/storage/firstaid/fire,
+/obj/item/storage/firstaid/fire,
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
+"gG" = (
+/obj/structure/window/reinforced,
+/obj/machinery/computer/modular/preset/security{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/black/border,
+/obj/effect/floor_decal/corner/black/diagonal,
+/turf/simulated/floor/tiled/monotile,
+/area/kepler_underground_colony/main_corridor)
 "gJ" = (
 /obj/effect/landmark/disaster_infestation_random,
+/obj/effect/floor_decal/corner/black/border{
+	dir = 9
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/military/ranger/quarters)
 "gQ" = (
+/obj/effect/floor_decal/corner/black/border{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/military/ranger/quarters)
+"gT" = (
+/obj/structure/closet/secure_closet/kepler/militia,
+/obj/effect/floor_decal/corner/red/border{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/hallway)
 "gX" = (
 /obj/machinery/light/medbay{
 	dir = 4
@@ -202,9 +352,17 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/main_corridor)
 "hc" = (
-/obj/machinery/door/airlock/multi_tile/security,
+/obj/machinery/door/airlock/multi_tile/security{
+	name = "Militia Equipment"
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/hallway)
+"hi" = (
+/obj/effect/floor_decal/corner/black/border{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/military/ranger/quarters)
 "hk" = (
 /obj/machinery/vending/engivend,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -213,14 +371,12 @@
 /obj/machinery/light/medbay{
 	dir = 4
 	},
+/obj/effect/floor_decal/corner/lime/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/main_corridor)
 "hC" = (
-/obj/machinery/light/medbay{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/white,
-/area/kepler_underground_colony/medical)
+/turf/simulated/floor/exoplanet/water/shallow,
+/area/kepler_undeground)
 "hP" = (
 /obj/machinery/power/apc/high{
 	dir = 1;
@@ -229,10 +385,16 @@
 /obj/structure/cable/yellow{
 	icon_state = "0-2"
 	},
+/obj/effect/floor_decal/corner/red/border{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/meeting_room)
 "ia" = (
 /obj/machinery/bodyscanner{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/blue/border{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
@@ -243,15 +405,42 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/kepler_underground_colony/main_corridor)
+"ie" = (
+/obj/effect/floor_decal/corner/black/border{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/military/ranger/armory)
 "iB" = (
 /turf/simulated/floor/tiled/techfloor,
 /area/kepler_underground_colony/militia/checkpoint_a)
+"iC" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/table/steel,
+/obj/effect/floor_decal/corner/black/border{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/black/diagonal,
+/turf/simulated/floor/tiled/monotile,
+/area/kepler_underground_colony/main_corridor)
+"iY" = (
+/obj/structure/table/standard,
+/obj/random/storage,
+/obj/effect/floor_decal/corner/lightgrey/diagonal,
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/crew_quarters/cryo)
 "jc" = (
 /obj/machinery/light/medbay,
+/obj/effect/floor_decal/corner/red/border{
+	dir = 10
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/hallway)
 "jf" = (
 /obj/machinery/smartfridge/foods,
+/obj/effect/floor_decal/corner/lime/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/main_corridor)
 "jh" = (
@@ -268,10 +457,46 @@
 /obj/machinery/vending/engineering,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/kepler_underground_colony/engineering)
+"jI" = (
+/obj/machinery/sleeper{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
 "jK" = (
 /obj/effect/landmark/disaster_infestation_random,
 /turf/simulated/floor/tiled/freezer,
 /area/kepler_underground_colony/main_corridor)
+"jO" = (
+/obj/effect/floor_decal/corner/blue/bordercorner{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kepler_underground_colony/main_corridor)
+"jQ" = (
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kepler_underground_colony/main_corridor)
+"jT" = (
+/obj/effect/landmark/disaster_infestation_random,
+/obj/effect/floor_decal/corner/blue/border,
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
+"kf" = (
+/obj/effect/floor_decal/corner/blue/border,
+/turf/simulated/floor/tiled/dark,
+/area/kepler_underground_colony/main_corridor)
+"kp" = (
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
 "kt" = (
 /obj/machinery/light/medbay{
 	dir = 8
@@ -280,19 +505,50 @@
 /area/kepler_underground_colony/main_corridor)
 "ku" = (
 /obj/structure/closet/secure_closet/kepler/military/ranger,
+/obj/effect/floor_decal/corner/black/border,
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/military/ranger/armory)
+"kx" = (
+/obj/structure/table/steel,
+/obj/effect/floor_decal/corner/red/border{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/checkpoint_b)
+"kE" = (
+/obj/machinery/door/window/northright,
+/obj/effect/floor_decal/corner/black/border{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/black/diagonal,
+/turf/simulated/floor/tiled/monotile,
+/area/kepler_underground_colony/main_corridor)
 "kJ" = (
 /turf/simulated/wall/r_titanium,
 /area/kepler_underground_colony/militia/checkpoint_a)
+"kO" = (
+/obj/effect/floor_decal/corner/blue/border,
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
 "li" = (
 /obj/structure/table/steel,
+/obj/effect/floor_decal/corner/black/border{
+	dir = 5
+	},
+/obj/random/mre,
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/military/ranger/quarters)
 "ls" = (
 /obj/structure/table/reinforced,
+/obj/effect/floor_decal/corner/lime/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/main_corridor)
+"ly" = (
+/obj/effect/floor_decal/corner/black/border{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/military/ranger/armory)
 "lz" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -302,8 +558,14 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/kepler_underground_colony/main_corridor)
+"mg" = (
+/turf/simulated/floor/tiled/dark,
+/area/kepler_underground_colony/main_corridor)
 "mq" = (
 /obj/effect/landmark/disaster_infestation_random,
+/obj/effect/floor_decal/corner/red/border{
+	dir = 9
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/meeting_room)
 "mx" = (
@@ -319,10 +581,29 @@
 "mQ" = (
 /turf/simulated/wall/r_titanium,
 /area/kepler_underground_colony/militia/armory)
+"mR" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced,
+/obj/structure/table/steel,
+/obj/effect/floor_decal/corner/black/border{
+	dir = 10
+	},
+/obj/effect/floor_decal/corner/black/diagonal,
+/turf/simulated/floor/tiled/monotile,
+/area/kepler_underground_colony/main_corridor)
 "mS" = (
 /obj/machinery/jukebox/old,
+/obj/effect/floor_decal/corner/lightgrey/diagonal,
 /turf/simulated/floor/tiled,
 /area/kepler_underground_colony/main_corridor)
+"mW" = (
+/obj/structure/bed/roller,
+/obj/structure/iv_drip,
+/obj/effect/floor_decal/corner/blue/border,
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
 "nc" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -336,6 +617,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-8"
 	},
+/obj/effect/floor_decal/corner/red/diagonal,
 /turf/simulated/floor/tiled/techfloor,
 /area/kepler_underground_colony/military/ranger/quarters)
 "nm" = (
@@ -344,6 +626,7 @@
 /obj/item/grenade/flashbang,
 /obj/item/grenade/flashbang,
 /obj/item/grenade/flashbang,
+/obj/effect/floor_decal/corner/red/diagonal,
 /turf/simulated/floor/tiled/techfloor,
 /area/kepler_underground_colony/militia/armory)
 "nC" = (
@@ -351,6 +634,16 @@
 	dir = 1
 	},
 /obj/effect/landmark/disaster_infestation_random,
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
+"nF" = (
+/obj/machinery/atmospherics/unary/freezer,
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/medical)
 "nS" = (
@@ -358,32 +651,71 @@
 /area/kepler_underground_colony/main_corridor)
 "nX" = (
 /obj/structure/table/standard,
+/obj/effect/floor_decal/corner/orange/border{
+	dir = 1
+	},
+/obj/item/reagent_containers/glass/beaker/large,
+/obj/item/stack/material/phoron/ten,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/medical)
+"of" = (
+/obj/effect/floor_decal/corner/black/border,
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/military/ranger/armory)
 "oq" = (
 /obj/structure/table/standard,
 /obj/item/book/manual/chemistry_recipes,
+/obj/effect/floor_decal/corner/orange/border{
+	dir = 6
+	},
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/medical)
 "oH" = (
 /obj/structure/bed/chair/padded,
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 9
+	},
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/medical)
 "oT" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
+/obj/effect/floor_decal/corner/yellow/diagonal,
 /turf/simulated/floor/tiled/techfloor,
 /area/kepler_underground_colony/engineering)
+"oV" = (
+/obj/structure/table/steel,
+/obj/effect/floor_decal/corner/red/border{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/checkpoint_a)
+"pa" = (
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kepler_underground_colony/main_corridor)
 "pc" = (
 /obj/structure/table/reinforced,
 /obj/machinery/chemical_dispenser/bar_coffee/full{
 	dir = 1
 	},
+/obj/effect/floor_decal/corner/lime/diagonal,
 /turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/main_corridor)
+"pq" = (
+/obj/effect/floor_decal/corner/blue/bordercorner{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
 /area/kepler_underground_colony/main_corridor)
 "pr" = (
 /obj/machinery/light/medbay{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/blue/border{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
@@ -398,14 +730,24 @@
 /obj/structure/bed/chair{
 	dir = 8
 	},
+/obj/effect/floor_decal/corner/lime/diagonal,
 /turf/simulated/floor/tiled/monotile,
 /area/kepler_underground_colony/main_corridor)
 "pI" = (
 /obj/machinery/light/medbay{
 	dir = 8
 	},
+/obj/effect/floor_decal/corner/red/border{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/armory)
+"pS" = (
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
 "pU" = (
 /obj/structure/table/standard,
 /obj/machinery/door/window/westleft,
@@ -417,12 +759,22 @@
 /area/kepler_underground_colony/militia/meeting_room)
 "qa" = (
 /obj/machinery/chem_master,
+/obj/effect/floor_decal/corner/orange/border{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
+"qd" = (
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 6
+	},
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/medical)
 "ql" = (
 /obj/structure/bed/chair{
 	dir = 4
 	},
+/obj/effect/floor_decal/corner/lime/diagonal,
 /turf/simulated/floor/tiled/monotile,
 /area/kepler_underground_colony/main_corridor)
 "qm" = (
@@ -434,31 +786,81 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/kepler_underground_colony/militia/checkpoint_a)
+"qu" = (
+/obj/structure/closet/secure_closet/kepler/militia,
+/obj/effect/floor_decal/corner/red/border{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/hallway)
+"qx" = (
+/obj/effect/floor_decal/corner/orange/border{
+	dir = 10
+	},
+/obj/structure/closet/wardrobe/chemistry_white,
+/obj/item/storage/box/beakers,
+/obj/item/storage/box/beakers,
+/obj/item/storage/box/syringes,
+/obj/item/storage/box/syringes,
+/obj/item/reagent_containers/glass/beaker/large,
+/obj/item/reagent_containers/glass/beaker/large,
+/obj/item/reagent_containers/glass/beaker/large,
+/obj/item/reagent_containers/glass/beaker/large,
+/obj/item/reagent_containers/glass/beaker/large,
+/obj/item/reagent_containers/glass/beaker/large,
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
 "qA" = (
 /turf/simulated/mineral/random,
 /area/kepler_undeground)
 "qN" = (
 /obj/machinery/light/medbay,
+/obj/effect/floor_decal/corner/black/border,
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/military/ranger/quarters)
 "qW" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
+/obj/effect/floor_decal/corner/red/diagonal,
 /turf/simulated/floor/tiled/techfloor,
 /area/kepler_underground_colony/military/ranger/quarters)
+"qY" = (
+/obj/structure/window/reinforced,
+/obj/machinery/computer/modular/preset/engineering{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/black/border,
+/obj/effect/floor_decal/corner/black/diagonal,
+/turf/simulated/floor/tiled/monotile,
+/area/kepler_underground_colony/main_corridor)
 "ra" = (
 /obj/structure/cable/yellow{
 	icon_state = "2-4"
 	},
+/obj/effect/floor_decal/corner/red/diagonal,
 /turf/simulated/floor/tiled/techfloor,
 /area/kepler_underground_colony/military/ranger/quarters)
 "rb" = (
 /obj/machinery/light/medbay{
 	dir = 4
 	},
+/obj/effect/floor_decal/corner/red/border{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/armory)
+"rc" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/machinery/computer/modular/preset/cardslot/command_sec,
+/obj/effect/floor_decal/corner/black/border{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/black/diagonal,
+/turf/simulated/floor/tiled/monotile,
+/area/kepler_underground_colony/main_corridor)
 "rd" = (
 /obj/structure/cable/yellow{
 	icon_state = "2-4"
@@ -479,14 +881,21 @@
 	dir = 4
 	},
 /obj/machinery/cryopod,
+/obj/effect/floor_decal/corner/lightgrey/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/crew_quarters/cryo)
 "rr" = (
 /obj/effect/landmark/disaster_infestation_random,
+/obj/effect/floor_decal/corner/white/border{
+	dir = 9
+	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/kepler_underground_colony/medical)
 "rE" = (
 /obj/machinery/light/medbay{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/red/border{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techmaint,
@@ -494,6 +903,7 @@
 "rG" = (
 /obj/machinery/light/medbay,
 /obj/machinery/stove,
+/obj/effect/floor_decal/corner/lime/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/main_corridor)
 "rK" = (
@@ -505,6 +915,17 @@
 "rO" = (
 /turf/simulated/wall/r_titanium,
 /area/kepler_underground_colony/military/ranger/armory)
+"rQ" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/machinery/computer/modular/preset/cardslot/command,
+/obj/effect/floor_decal/corner/black/border{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/black/diagonal,
+/turf/simulated/floor/tiled/monotile,
+/area/kepler_underground_colony/main_corridor)
 "rS" = (
 /obj/machinery/door/blast/regular/open{
 	id_tag = "kepler_secpost1_hall_north"
@@ -515,8 +936,24 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
+/obj/effect/floor_decal/corner/yellow/diagonal,
 /turf/simulated/floor/tiled/techfloor,
 /area/kepler_underground_colony/engineering)
+"si" = (
+/obj/effect/floor_decal/corner/red/border{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/meeting_room)
+"sr" = (
+/obj/machinery/door/airlock/security{
+	name = "Armory"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/armory)
 "sy" = (
 /obj/machinery/door/blast/regular/open{
 	id_tag = "kepler_secpost2_hall_east"
@@ -526,6 +963,20 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/kepler_underground_colony/militia/checkpoint_b)
+"sD" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/table/steel,
+/obj/effect/floor_decal/corner/black/border{
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/black/diagonal,
+/turf/simulated/floor/tiled/monotile,
+/area/kepler_underground_colony/main_corridor)
 "sL" = (
 /obj/machinery/door/airlock/glass/civilian,
 /obj/structure/cable/yellow{
@@ -546,6 +997,12 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/military/ranger/armory)
+"tc" = (
+/obj/effect/floor_decal/corner/red/border{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/meeting_room)
 "te" = (
 /obj/structure/table/steel,
 /obj/structure/cable/yellow{
@@ -556,32 +1013,68 @@
 "tA" = (
 /obj/machinery/light/medbay,
 /obj/effect/landmark/disaster_infestation_random,
+/obj/effect/floor_decal/corner/black/border,
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/military/ranger/armory)
+"tE" = (
+/obj/machinery/light/medbay{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
 "tI" = (
 /obj/structure/kitchenspike,
 /turf/simulated/floor/tiled/freezer,
 /area/kepler_underground_colony/main_corridor)
-"tQ" = (
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
+"tM" = (
+/obj/structure/closet/secure_closet/kepler/militia,
+/obj/effect/floor_decal/corner/red/border{
+	dir = 10
 	},
-/obj/machinery/computer/modular/preset/cardslot/command,
-/turf/simulated/floor/tiled/techfloor,
-/area/kepler_underground_colony/militia/meeting_room)
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/hallway)
+"tQ" = (
+/turf/simulated/floor/exoplanet/ice,
+/area/kepler_undeground)
 "tU" = (
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/hallway)
+"tV" = (
+/obj/structure/table/standard,
+/obj/effect/floor_decal/corner/blue/border,
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
 "uh" = (
 /obj/machinery/light/medbay{
 	dir = 4
 	},
 /obj/structure/closet/secure_closet/kepler/militia,
+/obj/effect/floor_decal/corner/red/border{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/hallway)
 "ul" = (
 /turf/simulated/floor/tiled/techfloor,
 /area/kepler_underground_colony/militia/checkpoint_b)
+"up" = (
+/obj/machinery/sleeper{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
+"ut" = (
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kepler_underground_colony/main_corridor)
 "uT" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/blast/shutters/open{
@@ -591,6 +1084,10 @@
 /area/kepler_underground_colony/militia/checkpoint_b)
 "vm" = (
 /obj/structure/table/standard,
+/obj/effect/floor_decal/corner/white/border{
+	dir = 10
+	},
+/obj/item/storage/firstaid/stab,
 /turf/simulated/floor/tiled/white/monotile,
 /area/kepler_underground_colony/medical)
 "vu" = (
@@ -598,16 +1095,19 @@
 	pixel_y = -24
 	},
 /obj/structure/cable/yellow,
+/obj/effect/floor_decal/corner/lightgrey/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/crew_quarters/cryo)
 "vx" = (
 /obj/machinery/computer/cryopod{
 	pixel_y = 32
 	},
+/obj/effect/floor_decal/corner/lightgrey/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/crew_quarters/cryo)
 "vV" = (
 /obj/machinery/light/medbay,
+/obj/effect/floor_decal/corner/red/border,
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/meeting_room)
 "vW" = (
@@ -642,6 +1142,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
+/obj/effect/floor_decal/corner/lightgrey/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/crew_quarters/cryo)
 "wp" = (
@@ -649,11 +1150,23 @@
 /area/kepler_underground_colony/engineering)
 "ws" = (
 /obj/structure/table/standard,
+/obj/random/tech_supply,
+/obj/effect/floor_decal/corner/lightgrey/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/crew_quarters/cryo)
 "wA" = (
 /obj/machinery/vending/cigarette,
+/obj/effect/floor_decal/corner/lightgrey/diagonal,
 /turf/simulated/floor/tiled,
+/area/kepler_underground_colony/main_corridor)
+"wB" = (
+/obj/structure/window/reinforced,
+/obj/machinery/computer/modular/preset/medical{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/black/border,
+/obj/effect/floor_decal/corner/black/diagonal,
+/turf/simulated/floor/tiled/monotile,
 /area/kepler_underground_colony/main_corridor)
 "wL" = (
 /obj/machinery/power/terminal{
@@ -671,21 +1184,56 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/kepler_underground_colony/engineering)
 "wT" = (
+/obj/effect/floor_decal/corner/red/border,
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/checkpoint_b)
+"xd" = (
+/obj/structure/table/standard,
+/obj/random/toolbox,
+/obj/effect/floor_decal/corner/lightgrey/diagonal,
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/crew_quarters/cryo)
 "xe" = (
+/obj/effect/floor_decal/corner/lightgrey/diagonal,
 /turf/simulated/floor/tiled,
 /area/kepler_underground_colony/main_corridor)
+"xj" = (
+/obj/structure/bed/chair/padded,
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
+"xG" = (
+/obj/machinery/door/airlock/medical,
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
 "xL" = (
+/obj/effect/floor_decal/corner/red/border{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/armory)
+"xO" = (
+/obj/effect/floor_decal/corner/black/border{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/military/ranger/armory)
 "xX" = (
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/main_corridor)
 "ya" = (
 /obj/structure/table/steel_reinforced,
+/obj/effect/floor_decal/corner/red/diagonal,
 /turf/simulated/floor/tiled/techfloor,
 /area/kepler_underground_colony/militia/armory)
+"yi" = (
+/obj/effect/floor_decal/corner/red/border{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/hallway)
 "yo" = (
 /obj/machinery/light/medbay{
 	dir = 8
@@ -715,10 +1263,38 @@
 	dir = 8
 	},
 /obj/structure/closet/secure_closet/kepler/militia,
+/obj/effect/floor_decal/corner/red/border{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/hallway)
+"zd" = (
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kepler_underground_colony/main_corridor)
+"zg" = (
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
+"zm" = (
+/obj/effect/floor_decal/corner/black/border{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/military/ranger/quarters)
+"zG" = (
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
 "Ag" = (
 /obj/machinery/light/medbay,
+/obj/effect/floor_decal/corner/blue/border,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/medical)
 "Al" = (
@@ -728,25 +1304,50 @@
 "An" = (
 /obj/structure/table/reinforced,
 /obj/effect/landmark/disaster_infestation_random,
+/obj/effect/floor_decal/corner/lime/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/main_corridor)
 "Ao" = (
+/obj/effect/floor_decal/corner/red/border{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/meeting_room)
+"AA" = (
+/obj/effect/floor_decal/corner/red/border{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/checkpoint_a)
 "AC" = (
 /obj/machinery/smartfridge/drinks,
+/obj/effect/floor_decal/corner/lime/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/main_corridor)
+"AG" = (
+/obj/effect/floor_decal/corner/red/diagonal,
+/turf/simulated/floor/tiled/techfloor,
+/area/kepler_underground_colony/militia/hallway)
 "AV" = (
 /obj/structure/table/reinforced,
 /obj/machinery/chemical_dispenser/bar_alc/full{
 	dir = 1
 	},
+/obj/effect/floor_decal/corner/lime/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/main_corridor)
 "AY" = (
 /obj/structure/closet/firecloset,
 /turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/main_corridor)
+"Ba" = (
+/obj/machinery/light/medbay{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
 /area/kepler_underground_colony/main_corridor)
 "Bg" = (
 /obj/structure/table/steel,
@@ -762,6 +1363,9 @@
 	pixel_x = 4;
 	pixel_y = -4
 	},
+/obj/effect/floor_decal/corner/red/border{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/checkpoint_a)
 "Bh" = (
@@ -774,26 +1378,71 @@
 "Br" = (
 /obj/structure/table/steel_reinforced,
 /obj/item/gun/launcher/grenade,
+/obj/effect/floor_decal/corner/red/border{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/armory)
 "By" = (
+/obj/effect/floor_decal/corner/red/diagonal,
 /turf/simulated/floor/tiled/techfloor,
 /area/kepler_underground_colony/military/ranger/armory)
 "Bz" = (
 /obj/structure/bed/chair/padded{
 	dir = 1
 	},
+/obj/effect/floor_decal/corner/blue/border,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/medical)
+"BB" = (
+/obj/machinery/light/medbay{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kepler_underground_colony/main_corridor)
+"BG" = (
+/obj/structure/table/standard,
+/obj/effect/floor_decal/corner/blue/border,
+/obj/item/storage/firstaid/light{
+	pixel_x = 8;
+	pixel_y = 8
+	},
+/obj/item/storage/firstaid/light{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/storage/firstaid/light,
+/obj/item/storage/firstaid/light{
+	pixel_x = -4;
+	pixel_y = -4
+	},
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
+"BH" = (
+/obj/machinery/door/airlock/multi_tile/glass/command,
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/main_corridor)
 "BQ" = (
+/obj/effect/floor_decal/corner/red/diagonal,
 /turf/simulated/floor/tiled/techfloor,
 /area/kepler_underground_colony/militia/armory)
 "BS" = (
 /obj/structure/closet/medical_wall/filled{
 	pixel_y = 32
 	},
+/obj/effect/floor_decal/corner/lightgrey/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/crew_quarters/cryo)
+"Cc" = (
+/obj/structure/bed/chair/padded,
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
 "Cf" = (
 /obj/structure/table/steel,
 /obj/machinery/button/blast_door{
@@ -808,11 +1457,20 @@
 	pixel_x = 4;
 	pixel_y = -4
 	},
+/obj/effect/floor_decal/corner/red/border{
+	dir = 6
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/checkpoint_b)
 "Cl" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
+"Cm" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 5
 	},
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/medical)
@@ -823,6 +1481,12 @@
 "Cz" = (
 /obj/structure/table/standard,
 /obj/machinery/light/medbay,
+/obj/effect/floor_decal/corner/orange/border,
+/obj/item/storage/box/beakers{
+	pixel_x = 6;
+	pixel_y = 6
+	},
+/obj/item/storage/box/beakers,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/medical)
 "CN" = (
@@ -837,8 +1501,28 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/kepler_underground_colony/main_corridor)
+"CT" = (
+/obj/structure/closet/secure_closet/kepler/militia,
+/obj/effect/floor_decal/corner/red/border{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/hallway)
+"Dt" = (
+/obj/structure/table/standard,
+/obj/effect/floor_decal/corner/orange/border,
+/obj/machinery/reagent_temperature{
+	pixel_x = -8
+	},
+/obj/machinery/reagent_temperature/cooler{
+	pixel_x = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
 "DA" = (
-/obj/machinery/door/airlock/medical,
+/obj/machinery/door/airlock/medical{
+	name = "Surgery"
+	},
 /obj/machinery/holosign/surgery,
 /turf/simulated/floor/tiled/white/monotile,
 /area/kepler_underground_colony/medical)
@@ -849,10 +1533,14 @@
 /obj/machinery/cryopod{
 	dir = 4
 	},
+/obj/effect/floor_decal/corner/lightgrey/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/crew_quarters/cryo)
 "Eh" = (
 /obj/effect/landmark/disaster_infestation_random,
+/obj/effect/floor_decal/corner/black/border{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/military/ranger/armory)
 "Eq" = (
@@ -864,13 +1552,26 @@
 /obj/structure/cable/yellow{
 	icon_state = "0-2"
 	},
+/obj/effect/floor_decal/corner/red/border{
+	dir = 9
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/checkpoint_b)
+"Ev" = (
+/obj/structure/closet/secure_closet/kepler/militia,
+/obj/effect/floor_decal/corner/red/border{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/hallway)
 "EN" = (
 /obj/structure/bed/chair/padded{
 	dir = 1
 	},
 /obj/effect/landmark/disaster_infestation_random,
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 10
+	},
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/medical)
 "Fd" = (
@@ -896,6 +1597,25 @@
 /obj/machinery/door/airlock/glass/civilian,
 /turf/simulated/floor/tiled/freezer,
 /area/kepler_underground_colony/main_corridor)
+"FE" = (
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 6
+	},
+/obj/structure/table/rack,
+/obj/item/storage/firstaid/toxin,
+/obj/item/storage/firstaid/toxin,
+/obj/item/storage/firstaid/toxin,
+/obj/item/storage/firstaid/toxin,
+/obj/item/storage/firstaid/toxin,
+/obj/item/storage/firstaid/toxin,
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
+"FN" = (
+/obj/effect/floor_decal/corner/white/border{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white/monotile,
+/area/kepler_underground_colony/medical)
 "FR" = (
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/medical)
@@ -914,13 +1634,18 @@
 	pixel_x = 8;
 	pixel_y = 24
 	},
+/obj/effect/floor_decal/corner/red/border{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/checkpoint_a)
 "Gi" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/military/ranger,
+/obj/machinery/door/airlock/military/ranger{
+	name = "Armory"
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/military/ranger/armory)
 "Gk" = (
@@ -931,7 +1656,9 @@
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/crew_quarters/cryo)
 "Gl" = (
-/obj/machinery/door/airlock/security,
+/obj/machinery/door/airlock/security{
+	name = "Militia"
+	},
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
@@ -941,6 +1668,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
+/obj/effect/floor_decal/corner/lightgrey/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/crew_quarters/cryo)
 "Go" = (
@@ -950,8 +1678,15 @@
 	pixel_y = 4
 	},
 /obj/item/gun/projectile/automatic/ak47,
+/obj/effect/floor_decal/corner/red/border{
+	dir = 9
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/armory)
+"Gy" = (
+/obj/effect/floor_decal/corner/red/border,
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/checkpoint_a)
 "GH" = (
 /obj/machinery/power/apc/high{
 	dir = 8;
@@ -959,6 +1694,9 @@
 	},
 /obj/structure/cable/yellow{
 	icon_state = "0-4"
+	},
+/obj/effect/floor_decal/corner/red/border{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/checkpoint_a)
@@ -970,8 +1708,20 @@
 /obj/structure/cable/yellow{
 	icon_state = "0-2"
 	},
+/obj/effect/floor_decal/corner/red/border{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/hallway)
+"GV" = (
+/obj/machinery/light/medbay{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kepler_underground_colony/main_corridor)
 "GZ" = (
 /turf/simulated/wall/r_titanium,
 /area/kepler_underground_colony/military/ranger/quarters)
@@ -983,10 +1733,16 @@
 /obj/structure/cable/yellow{
 	icon_state = "0-2"
 	},
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/medical)
 "Hk" = (
 /obj/machinery/light/medbay{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/red/border{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techmaint,
@@ -996,6 +1752,7 @@
 /area/kepler_underground_colony/medical)
 "Hn" = (
 /obj/machinery/cryopod,
+/obj/effect/floor_decal/corner/lightgrey/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/crew_quarters/cryo)
 "HA" = (
@@ -1010,6 +1767,13 @@
 "HS" = (
 /turf/simulated/wall/r_titanium,
 /area/kepler_underground_colony/engineering)
+"HU" = (
+/obj/effect/landmark/disaster_infestation_random,
+/obj/effect/floor_decal/corner/red/border{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/meeting_room)
 "HV" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -1029,14 +1793,23 @@
 /obj/machinery/computer/modular/preset/security{
 	dir = 8
 	},
+/obj/effect/floor_decal/corner/red/border{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/checkpoint_b)
 "HZ" = (
+/obj/effect/floor_decal/corner/red/border{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/checkpoint_a)
 "Ik" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
+	},
+/obj/effect/floor_decal/corner/red/border{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/checkpoint_b)
@@ -1045,7 +1818,20 @@
 /area/kepler_underground_colony/militia/meeting_room)
 "Iw" = (
 /obj/structure/table/standard,
+/obj/effect/floor_decal/corner/lime/diagonal,
 /turf/simulated/floor/tiled/monotile,
+/area/kepler_underground_colony/main_corridor)
+"IO" = (
+/turf/simulated/floor/exoplanet/snow,
+/area/kepler_undeground)
+"IR" = (
+/obj/machinery/light/medbay,
+/obj/effect/floor_decal/corner/red/border,
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/hallway)
+"IW" = (
+/obj/effect/floor_decal/corner/blue/bordercorner,
+/turf/simulated/floor/tiled/dark,
 /area/kepler_underground_colony/main_corridor)
 "Je" = (
 /obj/structure/table/steel,
@@ -1064,11 +1850,40 @@
 /obj/item/ammo_magazine/t18,
 /obj/item/ammo_magazine/t18,
 /obj/item/ammo_magazine/t18,
+/obj/effect/floor_decal/corner/black/border{
+	dir = 5
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/military/ranger/armory)
+"Jg" = (
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
+"Jt" = (
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 10
+	},
+/obj/effect/landmark/disaster_infestation_random,
+/obj/structure/table/rack,
+/obj/item/storage/firstaid/o2,
+/obj/item/storage/firstaid/o2,
+/obj/item/storage/firstaid/o2,
+/obj/item/storage/firstaid/o2,
+/obj/item/storage/firstaid/o2,
+/obj/item/storage/firstaid/o2,
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
 "JA" = (
+/obj/effect/floor_decal/corner/yellow/diagonal,
 /turf/simulated/floor/tiled/techfloor,
 /area/kepler_underground_colony/engineering)
+"JF" = (
+/obj/structure/bed/chair/office/comfy/black,
+/obj/effect/floor_decal/corner/black/diagonal,
+/turf/simulated/floor/tiled/monotile,
+/area/kepler_underground_colony/main_corridor)
 "JH" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -1077,18 +1892,33 @@
 /area/kepler_underground_colony/militia/checkpoint_a)
 "JM" = (
 /obj/effect/landmark/disaster_infestation_random,
+/obj/effect/floor_decal/corner/red/border{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/hallway)
 "JT" = (
 /obj/machinery/chemical_dispenser/full,
+/obj/effect/floor_decal/corner/orange/border{
+	dir = 9
+	},
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/medical)
 "Kd" = (
 /obj/structure/table/steel,
+/obj/effect/floor_decal/corner/red/border{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/checkpoint_b)
 "Kq" = (
 /obj/machinery/door/airlock/security,
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/hallway)
+"Kv" = (
+/obj/effect/floor_decal/corner/red/border{
+	dir = 5
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/hallway)
 "KH" = (
@@ -1096,6 +1926,9 @@
 /area/kepler_underground_colony/main_corridor)
 "KQ" = (
 /obj/structure/iv_drip,
+/obj/effect/floor_decal/corner/white/border{
+	dir = 6
+	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/kepler_underground_colony/medical)
 "KR" = (
@@ -1105,6 +1938,9 @@
 /obj/item/gun/projectile/automatic/t18,
 /obj/item/gun/projectile/automatic/t18,
 /obj/item/gun/projectile/automatic/t18,
+/obj/effect/floor_decal/corner/black/border{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/military/ranger/armory)
 "Li" = (
@@ -1113,6 +1949,7 @@
 /obj/item/material/kitchen/rollingpin{
 	pixel_x = 11
 	},
+/obj/effect/floor_decal/corner/lime/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/main_corridor)
 "Ln" = (
@@ -1122,14 +1959,28 @@
 /obj/structure/bed/chair{
 	dir = 8
 	},
+/obj/effect/floor_decal/corner/lime/diagonal,
 /turf/simulated/floor/tiled/monotile,
 /area/kepler_underground_colony/main_corridor)
 "Lr" = (
 /obj/machinery/cryopod{
 	dir = 4
 	},
+/obj/effect/floor_decal/corner/lightgrey/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/crew_quarters/cryo)
+"Ly" = (
+/obj/effect/floor_decal/corner/orange/border{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
+"LC" = (
+/obj/effect/floor_decal/corner/red/border{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/checkpoint_a)
 "LG" = (
 /obj/structure/table/steel_reinforced,
 /obj/item/ammo_magazine/ak47{
@@ -1158,10 +2009,16 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/armory)
+"LK" = (
+/obj/structure/table/steel_reinforced,
+/obj/effect/floor_decal/corner/red/border,
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/armory)
 "LT" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
+/obj/effect/floor_decal/corner/red/diagonal,
 /turf/simulated/floor/tiled/techfloor,
 /area/kepler_underground_colony/military/ranger/quarters)
 "Mj" = (
@@ -1178,6 +2035,9 @@
 /area/kepler_underground_colony/militia/armory)
 "Ni" = (
 /obj/structure/closet/secure_closet/kepler/militia,
+/obj/effect/floor_decal/corner/red/border{
+	dir = 9
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/hallway)
 "Nk" = (
@@ -1194,8 +2054,10 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/kepler_underground_colony/engineering)
 "NS" = (
-/obj/structure/table/standard,
-/obj/effect/landmark/disaster_infestation_random,
+/obj/effect/floor_decal/corner/orange/border{
+	dir = 5
+	},
+/obj/machinery/reagentgrinder,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/medical)
 "Of" = (
@@ -1203,20 +2065,51 @@
 	dir = 4;
 	pixel_x = -20
 	},
+/obj/effect/floor_decal/corner/lime/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/main_corridor)
+"Oj" = (
+/obj/structure/table/standard,
+/obj/effect/floor_decal/corner/blue/border,
+/obj/item/storage/firstaid/adv,
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
 "Ow" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-4"
 	},
+/obj/effect/floor_decal/corner/yellow/diagonal,
 /turf/simulated/floor/tiled/techfloor,
 /area/kepler_underground_colony/engineering)
+"OD" = (
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
+"OZ" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/table/steel,
+/obj/effect/floor_decal/corner/black/border{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/black/diagonal,
+/turf/simulated/floor/tiled/monotile,
+/area/kepler_underground_colony/main_corridor)
 "Pf" = (
 /obj/machinery/organ_printer,
+/obj/effect/floor_decal/corner/white/border{
+	dir = 5
+	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/kepler_underground_colony/medical)
 "Pm" = (
 /obj/machinery/vending/security,
+/obj/effect/floor_decal/corner/red/border{
+	dir = 9
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/hallway)
 "Pt" = (
@@ -1225,12 +2118,31 @@
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/kepler_underground_colony/main_corridor)
+"PA" = (
+/obj/effect/floor_decal/corner/blue/border,
+/obj/structure/table/rack,
+/obj/item/storage/firstaid/trauma,
+/obj/item/storage/firstaid/trauma,
+/obj/item/storage/firstaid/trauma,
+/obj/item/storage/firstaid/trauma,
+/obj/item/storage/firstaid/trauma,
+/obj/item/storage/firstaid/trauma,
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
+"PL" = (
+/obj/structure/table/steel_reinforced,
+/obj/effect/floor_decal/corner/red/border{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/armory)
 "PN" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/box/glasses/cocktail{
 	pixel_y = 6
 	},
 /obj/item/storage/box/glasses/mug,
+/obj/effect/floor_decal/corner/lime/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/main_corridor)
 "PR" = (
@@ -1249,6 +2161,9 @@
 /obj/item/clothing/suit/armor/vest,
 /obj/item/clothing/suit/armor/vest,
 /obj/item/clothing/suit/armor/vest,
+/obj/effect/floor_decal/corner/red/border{
+	dir = 10
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/armory)
 "PX" = (
@@ -1256,6 +2171,13 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/steel_grid,
+/area/kepler_underground_colony/main_corridor)
+"Qd" = (
+/obj/structure/bed/chair/shuttle/black{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/black/diagonal,
+/turf/simulated/floor/tiled/monotile,
 /area/kepler_underground_colony/main_corridor)
 "Qh" = (
 /obj/structure/table/steel_reinforced,
@@ -1275,6 +2197,9 @@
 	pixel_y = -2
 	},
 /obj/item/gun/projectile/pistol/military,
+/obj/effect/floor_decal/corner/red/border{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/armory)
 "Ql" = (
@@ -1285,21 +2210,42 @@
 /area/kepler_underground_colony/militia/meeting_room)
 "Qo" = (
 /obj/machinery/computer/modular/preset/security,
+/obj/effect/floor_decal/corner/red/border{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/checkpoint_a)
 "QC" = (
 /obj/structure/closet/emcloset,
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/main_corridor)
+"QI" = (
+/obj/machinery/light/medbay{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kepler_underground_colony/main_corridor)
 "QR" = (
 /turf/simulated/wall/r_titanium,
 /area/kepler_underground_colony/crew_quarters/cryo)
+"Re" = (
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kepler_underground_colony/main_corridor)
 "Rr" = (
 /obj/machinery/light/medbay{
 	dir = 8
 	},
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
+	},
+/obj/effect/floor_decal/corner/red/border{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/checkpoint_b)
@@ -1316,14 +2262,27 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/hallway)
+"RK" = (
+/obj/structure/table/standard,
+/obj/effect/floor_decal/corner/white/border,
+/obj/item/storage/firstaid/surgery,
+/turf/simulated/floor/tiled/white/monotile,
+/area/kepler_underground_colony/medical)
 "RM" = (
 /obj/effect/landmark/disaster_infestation_random,
+/obj/effect/floor_decal/corner/red/border{
+	dir = 6
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/armory)
 "RO" = (
+/obj/effect/floor_decal/corner/black/border{
+	dir = 9
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/military/ranger/armory)
 "RP" = (
+/obj/effect/floor_decal/corner/lime/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/main_corridor)
 "RQ" = (
@@ -1333,6 +2292,12 @@
 /obj/machinery/door/airlock/glass/civilian,
 /turf/simulated/floor/tiled/steel_grid,
 /area/kepler_underground_colony/main_corridor)
+"RT" = (
+/obj/effect/floor_decal/corner/red/border{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/armory)
 "Sd" = (
 /obj/structure/table/steel_reinforced,
 /turf/simulated/floor/tiled/techmaint,
@@ -1348,25 +2313,45 @@
 /obj/item/grenade/frag,
 /obj/item/grenade/frag,
 /obj/item/grenade/frag,
+/obj/effect/floor_decal/corner/black/border{
+	dir = 6
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/military/ranger/armory)
+"SE" = (
+/obj/machinery/door/window/northleft,
+/obj/effect/floor_decal/corner/black/border{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/black/diagonal,
+/turf/simulated/floor/tiled/monotile,
+/area/kepler_underground_colony/main_corridor)
 "SK" = (
 /obj/structure/table/steel_reinforced,
 /obj/machinery/power/apc/high{
 	pixel_y = -24
 	},
 /obj/structure/cable/yellow,
+/obj/effect/floor_decal/corner/red/border,
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/armory)
+"ST" = (
+/obj/effect/floor_decal/corner/black/border{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/military/ranger/quarters)
 "Te" = (
 /obj/structure/table/reinforced,
 /obj/machinery/microwave,
+/obj/effect/floor_decal/corner/lime/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/main_corridor)
 "Tr" = (
 /obj/structure/cable/yellow{
 	icon_state = "2-8"
 	},
+/obj/effect/floor_decal/corner/lightgrey/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/crew_quarters/cryo)
 "Ts" = (
@@ -1376,43 +2361,85 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/kepler_underground_colony/engineering)
+"Tv" = (
+/obj/effect/floor_decal/corner/black/border{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/military/ranger/quarters)
 "TG" = (
 /obj/machinery/vending/hotfood,
+/obj/effect/floor_decal/corner/lightgrey/diagonal,
 /turf/simulated/floor/tiled,
 /area/kepler_underground_colony/main_corridor)
 "TL" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
+/obj/effect/floor_decal/corner/red/diagonal,
 /turf/simulated/floor/tiled/techfloor,
 /area/kepler_underground_colony/militia/armory)
 "TN" = (
+/obj/effect/floor_decal/corner/lightgrey/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/crew_quarters/cryo)
 "TX" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
+/obj/effect/floor_decal/corner/red/border{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/armory)
 "Uh" = (
 /obj/structure/table/steel,
+/obj/effect/floor_decal/corner/black/border{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/military/ranger/armory)
+"Un" = (
+/obj/effect/floor_decal/corner/black/border{
+	dir = 1
+	},
+/obj/machinery/vending/mredispenser,
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/military/ranger/armory)
 "Uq" = (
 /obj/effect/landmark/disaster_infestation_random,
+/obj/effect/floor_decal/corner/lightgrey/diagonal,
 /turf/simulated/floor/tiled,
 /area/kepler_underground_colony/main_corridor)
 "Uu" = (
 /obj/structure/table/steel,
+/obj/effect/floor_decal/corner/red/border{
+	dir = 9
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/checkpoint_a)
+"Ux" = (
+/obj/effect/landmark/disaster_infestation_random,
+/obj/effect/floor_decal/corner/white/border{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white/monotile,
+/area/kepler_underground_colony/medical)
 "UD" = (
 /obj/machinery/door/window/northleft,
+/obj/effect/floor_decal/corner/lime/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/main_corridor)
+"UL" = (
+/obj/effect/landmark/disaster_infestation_random,
+/obj/effect/floor_decal/corner/red/border,
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/hallway)
 "Vf" = (
 /obj/machinery/light/medbay{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/white/border{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white/monotile,
@@ -1423,6 +2450,7 @@
 /area/kepler_underground_colony/militia/meeting_room)
 "Vh" = (
 /obj/machinery/optable,
+/obj/effect/floor_decal/corner/white/border,
 /turf/simulated/floor/tiled/white/monotile,
 /area/kepler_underground_colony/medical)
 "Vs" = (
@@ -1430,6 +2458,7 @@
 	pixel_y = -24
 	},
 /obj/structure/cable/yellow,
+/obj/effect/floor_decal/corner/black/border,
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/military/ranger/armory)
 "Vv" = (
@@ -1441,21 +2470,34 @@
 "VJ" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/northleft,
+/obj/effect/floor_decal/corner/lime/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/main_corridor)
+"VL" = (
+/obj/machinery/atmospherics/unary/cryo_cell,
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
 "VR" = (
 /obj/machinery/light/medbay,
+/obj/effect/floor_decal/corner/black/border,
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/military/ranger/armory)
 "VU" = (
 /obj/machinery/light/medbay{
 	dir = 8
 	},
+/obj/effect/floor_decal/corner/lime/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/main_corridor)
 "VX" = (
 /obj/structure/table/steel,
 /obj/machinery/light/medbay{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/red/border{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techmaint,
@@ -1466,8 +2508,17 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/hallway)
+"Wq" = (
+/obj/effect/floor_decal/corner/blue/bordercorner{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/kepler_underground_colony/main_corridor)
 "Wr" = (
 /obj/machinery/light/medbay{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/blue/border{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
@@ -1476,12 +2527,38 @@
 /obj/effect/wallframe_spawn/reinforced,
 /turf/simulated/floor/plating,
 /area/kepler_underground_colony/militia/armory)
+"Ww" = (
+/obj/effect/floor_decal/corner/white/border{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white/monotile,
+/area/kepler_underground_colony/medical)
+"WA" = (
+/obj/structure/window/reinforced,
+/obj/machinery/computer/modular/preset/supply_public{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/black/border,
+/obj/effect/floor_decal/corner/black/diagonal,
+/turf/simulated/floor/tiled/monotile,
+/area/kepler_underground_colony/main_corridor)
+"WD" = (
+/obj/effect/floor_decal/corner/red/border,
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/hallway)
 "WK" = (
 /obj/machinery/light/medbay{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/main_corridor)
+"WO" = (
+/obj/machinery/meter,
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
 "Xg" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/blast/shutters/open{
@@ -1489,7 +2566,25 @@
 	},
 /turf/simulated/floor/plating,
 /area/kepler_underground_colony/militia/checkpoint_a)
+"Xh" = (
+/obj/effect/floor_decal/corner/red/border{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/armory)
+"Xt" = (
+/obj/effect/floor_decal/corner/blue/border{
+	dir = 1
+	},
+/obj/effect/landmark/disaster_infestation_random,
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
+"Xv" = (
+/obj/effect/floor_decal/corner/red/border,
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/armory)
 "XV" = (
+/obj/effect/floor_decal/corner/red/diagonal,
 /turf/simulated/floor/tiled/techfloor,
 /area/kepler_underground_colony/military/ranger/quarters)
 "XZ" = (
@@ -1505,8 +2600,14 @@
 /obj/machinery/cryopod{
 	dir = 4
 	},
+/obj/effect/floor_decal/corner/lightgrey/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/crew_quarters/cryo)
+"Yg" = (
+/obj/machinery/vending/medical,
+/obj/effect/floor_decal/corner/blue/border,
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
 "Yh" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -1518,6 +2619,7 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
+/obj/effect/floor_decal/corner/lime/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/kepler_underground_colony/main_corridor)
 "Yj" = (
@@ -1531,6 +2633,7 @@
 /obj/machinery/light/medbay{
 	dir = 1
 	},
+/obj/effect/floor_decal/corner/lightgrey/diagonal,
 /turf/simulated/floor/tiled,
 /area/kepler_underground_colony/main_corridor)
 "YC" = (
@@ -1539,6 +2642,12 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/checkpoint_b)
+"YG" = (
+/obj/effect/floor_decal/corner/orange/border{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/medical)
 "YP" = (
 /obj/machinery/door/airlock/glass/medical,
 /obj/structure/cable/yellow{
@@ -1550,12 +2659,50 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/military/ranger,
+/obj/machinery/door/airlock/military/ranger{
+	name = "Ranger Corps"
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/military/ranger/quarters)
+"YX" = (
+/obj/structure/table/steel_reinforced,
+/obj/effect/floor_decal/corner/red/border{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/armory)
+"Zs" = (
+/obj/structure/table/standard,
+/obj/random/toy,
+/obj/effect/floor_decal/corner/lightgrey/diagonal,
+/turf/simulated/floor/tiled/white,
+/area/kepler_underground_colony/crew_quarters/cryo)
+"Zt" = (
+/obj/effect/floor_decal/corner/black/border{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/military/ranger/armory)
+"Zw" = (
+/obj/random/vendor,
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/main_corridor)
+"ZI" = (
+/obj/effect/floor_decal/corner/red/border{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/kepler_underground_colony/militia/checkpoint_a)
+"ZS" = (
+/obj/effect/floor_decal/corner/black/border,
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/military/ranger/quarters)
 "ZX" = (
 /obj/structure/cable/yellow{
 	icon_state = "2-8"
+	},
+/obj/effect/floor_decal/corner/red/border{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/kepler_underground_colony/militia/armory)
@@ -1563,6 +2710,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
+/obj/effect/floor_decal/corner/red/diagonal,
 /turf/simulated/floor/tiled/techfloor,
 /area/kepler_underground_colony/military/ranger/armory)
 
@@ -9459,13 +10607,13 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
+hC
+hC
+hC
+hC
+hC
+hC
+hC
 qA
 qA
 qA
@@ -9663,13 +10811,13 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
+hC
+hC
+hC
+hC
+hC
+hC
+hC
 qA
 qA
 qA
@@ -9869,9 +11017,9 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
+hC
+hC
+hC
 qA
 qA
 qA
@@ -10072,8 +11220,8 @@ qA
 qA
 qA
 qA
-qA
-qA
+hC
+hC
 qA
 qA
 qA
@@ -10274,8 +11422,8 @@ qA
 qA
 qA
 qA
-qA
-qA
+hC
+hC
 qA
 qA
 qA
@@ -10476,8 +11624,8 @@ qA
 qA
 qA
 qA
-qA
-qA
+hC
+hC
 qA
 qA
 qA
@@ -10679,14 +11827,14 @@ qA
 qA
 qA
 qA
+hC
+hC
 qA
 qA
 qA
 qA
 qA
-qA
-qA
-qA
+IO
 qA
 qA
 qA
@@ -10881,14 +12029,14 @@ qA
 qA
 qA
 qA
+hC
+hC
 qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
+IO
+IO
 qA
 qA
 qA
@@ -11083,15 +12231,15 @@ qA
 qA
 qA
 qA
+hC
+hC
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
+IO
+IO
+IO
+IO
 qA
 qA
 qA
@@ -11285,15 +12433,15 @@ qA
 qA
 qA
 qA
+hC
+hC
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
+tQ
+IO
+IO
+IO
+IO
 qA
 qA
 qA
@@ -11487,16 +12635,16 @@ qA
 qA
 qA
 qA
+hC
+hC
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
+hC
+tQ
+IO
+IO
+IO
+IO
+IO
 qA
 qA
 qA
@@ -11689,17 +12837,17 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
+hC
+hC
+hC
+hC
+tQ
+IO
+IO
+IO
+IO
+IO
+IO
 qA
 qA
 qA
@@ -11891,24 +13039,24 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
+hC
+hC
+hC
+tQ
+IO
+IO
+IO
+IO
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
 qA
 qA
 qA
@@ -12092,25 +13240,25 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
+hC
+hC
+hC
+tQ
+IO
+IO
+IO
+IO
+IO
+Al
+cm
+dL
+Ba
+dL
+dL
+Ba
+dL
+zd
+CN
 qA
 qA
 qA
@@ -12294,25 +13442,25 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
+hC
+hC
+hC
+tQ
+IO
+IO
+IO
+IO
+IO
+Al
+ut
+IW
+pa
+pa
+pa
+pa
+jO
+kf
+CN
 qA
 qA
 qA
@@ -12495,35 +13643,35 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
+hC
+hC
+hC
+tQ
+IO
+IO
+IO
+IO
+IO
+Al
+Al
+ut
+kf
+sD
+iC
+iC
+mR
+ut
+kf
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
 qA
 qA
 qA
@@ -12696,36 +13844,36 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
+hC
+hC
+tQ
+tQ
+IO
+IO
+IO
+IO
+IO
+Al
+Al
+BB
+Wq
+kf
+SE
+aO
+JF
+gG
+ut
+aY
+CN
+Mj
+xX
+xX
+xX
+Al
+xX
+kt
+xX
+CN
 qA
 qA
 qA
@@ -12898,36 +14046,36 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
+hC
+tQ
+IO
+IO
+IO
+IO
+IO
+IO
+Al
+Al
+cm
+Wq
+mg
+kf
+dM
+aO
+aO
+wB
+ut
+kf
+CN
+xX
+xX
+xX
+xX
+Al
+xX
+KH
+xX
+CN
 qA
 qA
 qA
@@ -13100,36 +14248,36 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
+hC
+tQ
+IO
+IO
+IO
+IO
+IO
+IO
+Al
+cm
+Wq
+mg
+mg
+kf
+rQ
+Qd
+aO
+WA
+ut
+mg
+cv
+xX
+xX
+xX
+xX
+BH
+xX
+KH
+xX
+CN
 qA
 qA
 qA
@@ -13302,36 +14450,36 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
+tQ
+IO
+IO
+IO
+IO
+IO
+IO
+IO
+Al
+jQ
+jO
+mg
+mg
+kf
+rc
+Qd
+aO
+wB
+ut
+mg
+xX
+xX
+xX
+xX
+xX
+xX
+xX
+KH
+xX
+CN
 qA
 qA
 qA
@@ -13504,36 +14652,36 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
+IO
+IO
+IO
+IO
+IO
+IO
+IO
+tQ
+Al
+Al
+jQ
+jO
+mg
+kf
+dM
+aO
+JF
+qY
+ut
+kf
+CN
+xX
+xX
+xX
+xX
+Al
+xX
+KH
+xX
+CN
 qA
 qA
 qA
@@ -13706,36 +14854,36 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
+IO
+IO
+IO
+IO
+IO
+IO
+IO
+tQ
+tQ
+Al
+Al
+QI
+jO
+kf
+kE
+aO
+aO
+gG
+ut
+aY
+CN
+Mj
+xX
+xX
+xX
+Al
+xX
+KH
+xX
+CN
 qA
 qA
 qA
@@ -13909,35 +15057,35 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
+IO
+IO
+IO
+IO
+IO
+IO
+IO
+tQ
+tQ
+Al
+Al
+ut
+kf
+ae
+OZ
+OZ
+fK
+ut
+kf
+CN
+CN
+CN
+CN
+CN
+CN
+Mj
+KH
+xX
+CN
 qA
 qA
 qA
@@ -14112,34 +15260,34 @@ qA
 qA
 qA
 qA
+IO
+IO
+IO
+IO
+IO
+IO
+tQ
+tQ
+tQ
+Al
+ut
+pq
+dL
+dL
+dL
+dL
+Wq
+kf
+CN
 qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
+CN
+xX
+KH
+xX
+CN
 qA
 qA
 qA
@@ -14315,33 +15463,33 @@ qA
 qA
 qA
 qA
+IO
+IO
+IO
+IO
+IO
+IO
+tQ
+tQ
+Al
+jQ
+pa
+GV
+pa
+pa
+GV
+pa
+Re
+CN
 qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
+CN
+xX
+KH
+xX
+CN
 qA
 qA
 qA
@@ -14518,32 +15666,32 @@ qA
 qA
 qA
 qA
+IO
+IO
+IO
+IO
+IO
+IO
+tQ
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
+CN
 qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
+CN
+xX
+KH
+xX
+CN
 qA
 qA
 qA
@@ -14721,6 +15869,15 @@ qA
 qA
 qA
 qA
+IO
+IO
+IO
+IO
+IO
+tQ
+tQ
+tQ
+tQ
 qA
 qA
 qA
@@ -14732,20 +15889,11 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
+CN
+xX
+KH
+xX
+CN
 qA
 qA
 qA
@@ -14924,13 +16072,13 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
-qA
-qA
+IO
+IO
+IO
+IO
+IO
+tQ
+tQ
 qA
 qA
 qA
@@ -14944,9 +16092,9 @@ qA
 qA
 qA
 CN
-CN
-CN
-CN
+xX
+KH
+xX
 CN
 CN
 CN
@@ -15127,11 +16275,11 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
-qA
+IO
+IO
+IO
+IO
+tQ
 qA
 qA
 qA
@@ -15147,7 +16295,7 @@ qA
 qA
 CN
 xX
-xX
+KH
 xX
 xX
 kt
@@ -15330,10 +16478,10 @@ qA
 qA
 qA
 qA
-qA
-qA
-qA
-qA
+IO
+IO
+IO
+tQ
 qA
 qA
 qA
@@ -15533,8 +16681,8 @@ qA
 qA
 qA
 qA
-qA
-qA
+IO
+IO
 qA
 qA
 qA
@@ -15736,7 +16884,7 @@ qA
 qA
 qA
 qA
-qA
+IO
 qA
 qA
 qA
@@ -15960,22 +17108,22 @@ xX
 CN
 pY
 mq
-Ao
-Ao
-Ao
-Ao
-Ao
+tc
+tc
+tc
+tc
+si
 pY
 Pm
 tU
 jc
 qm
 Ni
-Ni
+gT
 zc
-Ni
-Ni
-Ni
+gT
+gT
+tM
 qm
 qA
 qA
@@ -16166,18 +17314,18 @@ Vg
 Ir
 Ir
 Vg
-Ao
+eN
 pY
 JM
 HA
 tU
 hc
 tU
-HA
-HA
-HA
-HA
-tU
+AG
+AG
+AG
+AG
+WD
 qm
 qA
 qA
@@ -16370,16 +17518,16 @@ Vg
 Vg
 vV
 pY
-tU
+yi
 HA
 tU
 tU
 tU
-HA
-HA
-HA
-HA
-JM
+AG
+AG
+AG
+AG
+UL
 qm
 qA
 qA
@@ -16570,18 +17718,18 @@ Ir
 Vg
 Vg
 Ir
-Ao
+eN
 pY
-tU
+yi
 HA
-tU
+WD
 qm
-Ni
-Ni
+qu
+Ev
 uh
-Ni
-Ni
-Ni
+Ev
+Ev
+CT
 qm
 qA
 qA
@@ -16757,7 +17905,7 @@ qA
 qA
 qA
 fc
-Kd
+kx
 VX
 HY
 Cf
@@ -16772,11 +17920,11 @@ Ir
 Vg
 Vg
 Ir
-Ao
+eN
 pY
-tU
+yi
 HA
-tU
+WD
 mQ
 mQ
 mQ
@@ -16972,7 +18120,7 @@ pY
 hP
 Ql
 te
-tQ
+Ql
 Ql
 mx
 FY
@@ -16982,7 +18130,7 @@ VY
 Fm
 px
 pI
-xL
+Xh
 Wv
 Go
 pI
@@ -17176,15 +18324,15 @@ Ir
 Vg
 Vg
 Ir
-Ao
+eN
 pY
-tU
+yi
 cf
-jc
+IR
 mQ
 TX
 BQ
-xL
+Xv
 Wv
 LG
 BQ
@@ -17378,16 +18526,16 @@ Ir
 Vg
 Vg
 Ir
-Ao
+eN
 pY
-tU
+yi
 cf
-tU
+WD
 Wv
 ZX
 TL
 Mq
-Fm
+sr
 Mq
 TL
 TL
@@ -17582,19 +18730,19 @@ Vg
 Vg
 vV
 pY
-tU
+yi
 cf
-tU
+WD
 Wv
 xL
 BQ
-xL
+Xv
 Wv
 Sd
 BQ
 nm
 BQ
-Sd
+LK
 mQ
 xX
 KH
@@ -17782,21 +18930,21 @@ Vg
 Ir
 Ir
 Vg
-Ao
+eN
 pY
-tU
+yi
 cf
-tU
+WD
 mQ
-xL
+RT
 rb
 RM
 Wv
-Sd
+PL
 rb
 Br
 rb
-Sd
+YX
 mQ
 xX
 KH
@@ -17979,16 +19127,16 @@ Yh
 xX
 CN
 pY
-Ao
-Ao
-Ao
-Ao
-Ao
-mq
+ca
+fp
+fp
+fp
+fp
+HU
 pY
 GO
 HV
-tU
+WD
 mQ
 mQ
 mQ
@@ -18188,19 +19336,19 @@ pY
 pY
 pY
 pY
-tU
+yi
 cf
-tU
+WD
 qm
 gJ
-gQ
-gQ
-gQ
+zm
+zm
+Tv
 rO
 RO
-RO
-RO
-RO
+ie
+ie
+xO
 rO
 xX
 KH
@@ -18388,11 +19536,11 @@ HZ
 GH
 Hk
 HZ
-HZ
+AA
 kJ
-tU
+yi
 cf
-jc
+IR
 qm
 gQ
 XV
@@ -18594,7 +19742,7 @@ nc
 Bh
 VY
 HV
-tU
+WD
 qm
 gQ
 XV
@@ -18792,21 +19940,21 @@ qr
 iB
 iB
 iB
-HZ
+Gy
 kJ
-tU
+yi
 cf
-tU
+WD
 qm
 gQ
 XV
 LT
-gQ
+ZS
 rO
-RO
+ly
 By
 By
-RO
+of
 rO
 xX
 KH
@@ -18989,21 +20137,21 @@ Yh
 xX
 CN
 kJ
-Uu
+oV
 Bg
-HZ
-HZ
-HZ
-HZ
+ZI
+ZI
+ZI
+LC
 kJ
-tU
+Kv
 RI
-JM
+fB
 qm
 gQ
 XV
 LT
-gQ
+ZS
 rO
 Uh
 By
@@ -19202,10 +20350,10 @@ qm
 Gl
 qm
 qm
-gJ
+fW
 XV
 LT
-gQ
+ZS
 rO
 Uh
 By
@@ -19407,9 +20555,9 @@ GZ
 gQ
 XV
 LT
-gQ
+ZS
 rO
-RO
+cJ
 By
 By
 ku
@@ -19609,7 +20757,7 @@ GZ
 gQ
 XV
 LT
-gQ
+ZS
 rO
 Uh
 By
@@ -20015,7 +21163,7 @@ XV
 XV
 qN
 rO
-RO
+Un
 By
 By
 tA
@@ -20215,7 +21363,7 @@ GZ
 gQ
 XV
 XV
-gQ
+ZS
 rO
 KR
 By
@@ -20415,13 +21563,13 @@ sQ
 CN
 GZ
 li
-gQ
-li
-gQ
+hi
+hi
+ST
 rO
 Je
-RO
-RO
+Zt
+Zt
 SC
 rO
 xX
@@ -20603,12 +21751,12 @@ qA
 qA
 Hm
 es
-es
-es
-es
+jI
+jI
+up
 yr
 oH
-FR
+zG
 Wr
 EN
 yr
@@ -20807,9 +21955,9 @@ Hm
 pr
 FR
 FR
-bT
+jT
 yr
-oH
+Cc
 FR
 FR
 Bz
@@ -21211,12 +22359,12 @@ Hm
 ia
 fZ
 FR
-FR
+mW
 yr
-oH
+Cc
 FR
 FR
-FR
+kO
 yr
 xX
 Yh
@@ -21410,15 +22558,15 @@ qA
 qA
 qA
 Hm
+kp
 FR
 FR
-FR
-FR
+mW
 yr
-oH
-FR
-FR
-FR
+xj
+pS
+pS
+qd
 yr
 xX
 Yh
@@ -21615,7 +22763,7 @@ Hm
 ia
 fZ
 FR
-FR
+mW
 Hm
 yr
 yr
@@ -21814,15 +22962,15 @@ qA
 qA
 qA
 Hm
+kp
 FR
 FR
-FR
-FR
+dE
 yr
 JT
-FR
-FR
-NS
+YG
+YG
+qx
 Hm
 xX
 Yh
@@ -22019,12 +23167,12 @@ Hm
 nC
 FR
 FR
-FR
+Yg
 yr
 qa
 FR
 FR
-nX
+Dt
 Hm
 xX
 Yh
@@ -22218,10 +23366,10 @@ qA
 qA
 qA
 Hm
+VL
+Cm
 FR
-FR
-FR
-FR
+Oj
 yr
 nX
 FR
@@ -22420,13 +23568,13 @@ qA
 qA
 qA
 Hm
+nF
+WO
 FR
-FR
-FR
-FR
+BG
 yr
 NS
-FR
+Ly
 FR
 oq
 Hm
@@ -22622,10 +23770,10 @@ qA
 qA
 qA
 Hm
+kp
 FR
 FR
-FR
-FR
+tV
 Hm
 yr
 yr
@@ -22824,15 +23972,15 @@ qA
 qA
 qA
 Hm
+kp
 FR
 FR
+kO
+yr
+Jg
+zG
 FR
-FR
-FR
-FR
-FR
-FR
-FR
+zg
 Hm
 xX
 Yh
@@ -23026,15 +24174,15 @@ qA
 qA
 qA
 Hm
+kp
 FR
 FR
+kO
+yr
+Xt
 FR
 FR
-FR
-FR
-FR
-FR
-FR
+kO
 Hm
 xX
 Yh
@@ -23232,7 +24380,7 @@ pr
 FR
 FR
 FR
-FR
+mC
 FR
 FR
 FR
@@ -23430,15 +24578,15 @@ qA
 qA
 qA
 Hm
+kp
 FR
 FR
+kO
+yr
+kp
 FR
 FR
-FR
-FR
-FR
-FR
-FR
+kO
 Hm
 xX
 Yh
@@ -23634,13 +24782,13 @@ qA
 Hm
 bT
 FR
+pS
+qd
+yr
+OD
 FR
-FR
-hC
-FR
-FR
-FR
-bT
+pS
+qd
 Hm
 xX
 Yh
@@ -23840,7 +24988,7 @@ Hm
 Hm
 Hm
 Hm
-DA
+xG
 Hm
 Hm
 Hm
@@ -24038,13 +25186,13 @@ qA
 Hm
 rr
 cs
-cs
+FN
 vm
 Hm
-rr
-cs
-cs
-vm
+Jg
+FR
+zG
+Jt
 Hm
 xX
 Yh
@@ -24238,15 +25386,15 @@ qA
 qA
 qA
 Hm
+Ww
 cs
 cs
-cs
-vm
+RK
 Hm
-cs
-cs
-cs
-vm
+kp
+FR
+FR
+gb
 Hm
 xX
 Yh
@@ -24440,15 +25588,15 @@ qA
 qA
 qA
 Hm
-cs
+Ww
 cs
 cs
 Vh
 Hm
-cs
-cs
-cs
-Vh
+kp
+FR
+FR
+PA
 Hm
 xX
 Yh
@@ -24644,13 +25792,13 @@ qA
 Hm
 Pf
 Vf
-rr
+Ux
 KQ
 Hm
-Pf
-Vf
-rr
-KQ
+OD
+tE
+pS
+FE
 Hm
 xX
 Yh
@@ -25060,7 +26208,7 @@ xX
 Yh
 xX
 CN
-xX
+Zw
 xX
 xX
 kt
@@ -25468,7 +26616,7 @@ rK
 xX
 xX
 xX
-xX
+Zw
 CN
 tI
 nS
@@ -26276,7 +27424,7 @@ Hn
 Hn
 Hn
 TN
-ws
+iY
 QR
 qA
 qA
@@ -26470,7 +27618,7 @@ qA
 qA
 qA
 QR
-ws
+Zs
 TN
 Lr
 Lr
@@ -26478,7 +27626,7 @@ Ea
 Lr
 Lr
 TN
-ws
+xd
 QR
 qA
 qA

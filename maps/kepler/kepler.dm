@@ -18,6 +18,9 @@
 	#include "items/cards_ids.dm"
 	#include "items/encryption_keys.dm"
 	#include "items/headsets.dm"
+	#include "items/clothing/head.dm"
+	#include "items/clothing/suit.dm"
+	#include "items/clothing/under.dm"
 
 	#include "job/_kepler_access.dm"
 	#include "job/_kepler_jobs.dm"
