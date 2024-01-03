@@ -11,7 +11,7 @@ SUBSYSTEM_DEF(ticker)
 	var/list/gamemode_vote_results  //Will be a list, in order of preference, of form list(config_tag = number of votes).
 	var/bypass_gamemode_vote = 0    //Intended for use with admin tools. Will avoid voting and ignore any results.
 
-	var/master_mode = "extended"    //The underlying game mode (so "secret" or the voted mode). Saved to default back to previous round's mode in case the vote failed. This is a config_tag.
+	var/master_mode = "serene"    //The underlying game mode (so "secret" or the voted mode). Saved to default back to previous round's mode in case the vote failed. This is a config_tag.
 	var/datum/game_mode/mode        //The actual gamemode, if selected.
 	var/round_progressing = 1       //Whether the lobby clock is ticking down.
 
@@ -236,7 +236,7 @@ Helpers
 			mode_to_try = gamemode_vote_results[1]
 			. = CHOOSE_GAMEMODE_RETRY //Worth it to try again at least once.
 		else
-			mode_to_try = "extended"
+			mode_to_try = "serene"
 
 	if(!mode_to_try)
 		return

@@ -66,17 +66,6 @@ Frequency range: 1200 to 1600
 Radiochat range: 1441 to 1489 (most devices refuse to be tune to other frequency, even during mapmaking)
 
 Radio:
-1459 - standard radio chat
-1351 - Science
-1353 - Command
-1355 - Medical
-1357 - Engineering
-1359 - Security
-1341 - deathsquad
-1443 - Confession Intercom
-1347 - Cargo techs
-1349 - Service people
-
 1491-1509 - Away sites
 
 Devices:
@@ -105,7 +94,6 @@ var/const/PUBLIC_HIGH_FREQ	= 1489
 var/const/RADIO_HIGH_FREQ	= 1600
 
 var/const/BOT_FREQ	= 1447
-var/const/COMM_FREQ = 1353
 var/const/ERT_FREQ	= 1345
 var/const/AI_FREQ	= 1343
 var/const/DTH_FREQ	= 1341
@@ -114,15 +102,18 @@ var/const/RAID_FREQ	= 1277
 var/const/ENT_FREQ	= 1461 //entertainment frequency. This is not a diona exclusive frequency.
 
 // department channels
-var/const/PUB_FREQ = 1459
 var/const/HAIL_FREQ = 1463
-var/const/SEC_FREQ = 1359
-var/const/ENG_FREQ = 1357
-var/const/MED_FREQ = 1355
-var/const/SCI_FREQ = 1351
-var/const/SRV_FREQ = 1349
-var/const/SUP_FREQ = 1347
-var/const/EXP_FREQ = 1361
+var/const/PUB_FREQ = 1459
+var/const/COMM_FREQ = 1367
+var/const/EXP_FREQ = 1365
+var/const/SEC_FREQ = 1363
+var/const/ENG_FREQ = 1361
+var/const/MED_FREQ = 1359
+var/const/SCI_FREQ = 1357
+var/const/SRV_FREQ = 1355
+var/const/SUP_FREQ = 1353
+var/const/MIL_FREQ = 1351
+var/const/RAN_FREQ = 1349
 
 // internal department channels
 var/const/MED_I_FREQ = 1485
@@ -163,7 +154,9 @@ var/list/radiochannels = list(
 	"AI Private"	= AI_FREQ,
 	"Entertainment" = ENT_FREQ,
 	"Medical (I)"	= MED_I_FREQ,
-	"Security (I)"	= SEC_I_FREQ
+	"Security (I)"	= SEC_I_FREQ,
+	"Military"		= MIL_FREQ,
+	"Ranger"		= RAN_FREQ,
 )
 
 var/list/channel_color_presets = list(

@@ -30,7 +30,7 @@ SUBSYSTEM_DEF(unit_tests)
 	//
 	//Start the Round.
 	//
-	SSticker.master_mode = "extended"
+	SSticker.master_mode = "serene"
 	for(var/test_datum_type in get_test_datums())
 		queue += new test_datum_type
 	log_unit_test("[queue.len] unit tests loaded.")

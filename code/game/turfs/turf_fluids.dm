@@ -44,7 +44,7 @@
 	var/obj/effect/fluid/F = return_fluid()
 	return (istype(F) ? F.fluid_amount : 0 )
 
-/turf/ChangeTurf(var/turf/N, var/tell_universe=1, var/force_lighting_update = 0)
+/turf/ChangeTurf(turf/N, tell_universe = TRUE, force_lighting_update = FALSE, keep_air = FALSE)
 	. = ..()
 	var/turf/T = .
 	if(isturf(T) && !T.flooded && T.flood_object)

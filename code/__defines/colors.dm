@@ -201,3 +201,7 @@
 // Colors for input/hotkey panel.
 #define COLOR_INPUT_DISABLED "#f0f0f0"
 #define COLOR_INPUT_ENABLED "#d3b5b5"
+
+
+// Kepler colors
+#define COLOR_KEPLER_BLUE "#686894"

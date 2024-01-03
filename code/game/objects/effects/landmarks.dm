@@ -256,3 +256,20 @@
 	GLOB.ruin_landmarks -= src
 	ruin_template = null
 	. = ..()
+
+/obj/effect/landmark/disaster_meteor
+	name = "Disaster - Meteor Landmark"
+	icon_state = "meteor"
+
+// This only defines a z-level available for bombardment
+/obj/effect/landmark/disaster_meteor_dynamic
+	name = "Disaster - Meteor Dynamic Landmark"
+	icon_state = "meteor"
+
+/obj/effect/landmark/disaster_infestation
+	name = "Disaster - Infestation Epicenter Landmark"
+	icon_state = "infestation"
+
+/obj/effect/landmark/disaster_infestation_random
+	name = "Disaster - Infestation Random Spawn Landmark"
+	icon_state = "infestation_small"

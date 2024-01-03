@@ -70,6 +70,12 @@
 /proc/is_not_open_space(turf/T)
 	return !isopenspace(T)
 
+/proc/is_mineral_turf(turf/T)
+	return istype(T, /turf/simulated/mineral)
+
+/proc/is_not_mineral_turf(turf/T)
+	return !is_mineral_turf(T)
+
 /proc/is_holy_turf(var/turf/T)
 	return T && T.holy
 

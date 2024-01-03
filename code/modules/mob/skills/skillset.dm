@@ -88,7 +88,7 @@
 //Skill-related mob helper procs
 
 /mob/proc/get_skill_value(skill_path)
-	if(!skillset)
+	if(!istype(skillset))
 		return SKILL_UNTRAINED
 	return skillset.get_value(skill_path)
 

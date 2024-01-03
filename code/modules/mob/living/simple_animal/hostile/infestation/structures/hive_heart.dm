@@ -116,11 +116,12 @@
 		D.color = COLOR_MAROON
 		animate(D, transform = matrix()*1.2, alpha = 0, time = 5, easing = SINE_EASING)
 
-/obj/effect/hive_heart/proc/ConvertTurfs()
+/obj/effect/hive_heart/proc/ConvertTurfs(do_timer = TRUE)
 	if(QDELETED(src) || !is_alive())
 		return
 
-	addtimer(CALLBACK(src, .proc/ConvertTurfs), convert_turfs_cooldown)
+	if(do_timer)
+		addtimer(CALLBACK(src, .proc/ConvertTurfs), convert_turfs_cooldown)
 
 	var/list/valid_turfs = list()
 	for(var/turf/T in spiral_range_turfs(convert_turfs_range, src))

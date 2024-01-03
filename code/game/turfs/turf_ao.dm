@@ -108,7 +108,7 @@
 #undef AO_TURF_CHECK
 #undef AO_SELF_CHECK
 
-/turf/ChangeTurf()
+/turf/ChangeTurf(turf/N, tell_universe = TRUE, force_lighting_update = FALSE, keep_air = FALSE)
 	var/old_density = density
 	var/old_permit_ao = permit_ao
 	. = ..()
