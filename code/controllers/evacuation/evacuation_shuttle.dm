@@ -135,5 +135,40 @@
 /datum/evacuation_option/recall_shuttle/execute(mob/user)
 	cancel_call_proc(user)
 
+/datum/evacuation_controller/shuttle/kepler
+	name = "kepler shuttle controller"
+	evac_waiting =  new(0, new_sound = sound('sound/AI/shuttledock.ogg'))
+	evac_called =   new(0, new_sound = sound('sound/AI/shuttlecalled.ogg'))
+	evac_recalled = new(0, new_sound = sound('sound/AI/shuttlerecalled.ogg'))
+
+	emergency_prep_additional_delay = 0 MINUTES
+	transfer_prep_additional_delay = 0 MINUTES
+
+	evacuation_options = list(
+		EVAC_OPT_CALL_SHUTTLE = new /datum/evacuation_option/call_shuttle/kepler(),
+		EVAC_OPT_RECALL_SHUTTLE = new /datum/evacuation_option/recall_shuttle()
+	)
+
+/datum/evacuation_option/call_shuttle/kepler
+	option_text = "Call emergency shuttle"
+	option_desc = "call the emergency shuttle"
+	option_target = EVAC_OPT_CALL_SHUTTLE
+	needs_syscontrol = TRUE
+	silicon_allowed = TRUE
+
+/datum/evacuation_option/call_shuttle/kepler/execute(mob/user)
+	if(!CanEvac(user))
+		to_chat(user, SPAN_DANGER("Evacuation shuttle could not be reached. Check your connection."))
+		return
+	return ..()
+
+/datum/evacuation_option/call_shuttle/kepler/proc/CanEvac(mob/user)
+	var/can_evac = FALSE
+	for(var/obj/machinery/comms_dish/C in GLOB.comms_dishes)
+		if(C.operable())
+			can_evac = TRUE
+			break
+	return can_evac
+
 #undef EVAC_OPT_CALL_SHUTTLE
 #undef EVAC_OPT_RECALL_SHUTTLE

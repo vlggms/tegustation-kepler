@@ -2,7 +2,6 @@
 
 	//#include "kepler_announcements.dm"
 	#include "kepler_areas.dm"
-	#include "kepler_evacuation.dm"
 	//#include "kepler_events.dm"
 	#include "kepler_lobby.dm"
 	//#include "kepler_machinery.dm"
